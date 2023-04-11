@@ -1,2 +1,3 @@
 # 0ood_node
-A 0ood single node edge computing
+
+A 0ood aka "Zeus" single node edge computing.

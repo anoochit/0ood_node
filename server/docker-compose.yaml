@@ -1,0 +1,78 @@
+version: '3.6'
+services:
+  mosquitto:
+    image: eclipse-mosquitto
+    volumes:
+      - ./mosquitto/config/:/mosquitto/config/:ro
+      - ./mosquitto/logs/:/mosquitto/log/
+      - ./mosquitto/data:/mosquitto/data/
+    ports:
+      - 1883:1883
+      - 9001:9001
+  auth:
+    build:
+      context: .
+      dockerfile: /auth_service/Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - "graphql-engine"
+    restart: always
+    volumes:
+      - auth_data:/app
+    environment:
+      JWT_SECRET: "8d0a4102fa584bbe8308da94d3506bc8"
+      HASURA_GRAPHQL: "http://graphql-engine:8080/v1/graphql"
+    command: npm start
+  etl:
+    build:
+      context: .
+      dockerfile: /etl/Dockerfile
+    depends_on:
+      - "mosquitto"
+      - "graphql-engine"
+    restart: always
+    environment:
+      MQTT_BROKER_HOST: mosquitto
+      MQTT_BROKER_PORT: 1883
+      HASURA_HOST: graphql-engine
+      HASURA_GRAPHQL_ADMIN_SECRET: myadminsecretkey
+    command: npm start   
+  minio:
+    image: minio/minio
+    ports:
+      - "9000:9000"
+      - ":9001"
+    volumes:
+      - ./minio_data:/data
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: miniopassword
+    command: server --console-address ":9001" /data
+  postgres:
+    image: postgres:14
+    ports:
+      - ":5432"
+    restart: always
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: postgrespassword
+  graphql-engine:
+    image: hasura/graphql-engine:v2.21.0
+    ports:
+      - "8080:8080"
+    depends_on:
+      - "postgres"
+    restart: always
+    environment:
+      HASURA_GRAPHQL_METADATA_DATABASE_URL: postgres://postgres:postgrespassword@postgres:5432/postgres
+      PG_DATABASE_URL: postgres://postgres:postgrespassword@postgres:5432/postgres
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "true"  
+      HASURA_GRAPHQL_DEV_MODE: "true"
+      HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, webhook-log, websocket-log, query-log
+      HASURA_GRAPHQL_ADMIN_SECRET: myadminsecretkey 
+      HASURA_GRAPHQL_JWT_SECRET: '{ "type": "HS256", "key": "8d0a4102fa584bbe8308da94d3506bc8" }'
+volumes:
+  db_data:
+  auth_data:

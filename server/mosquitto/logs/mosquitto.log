@@ -1,0 +1,29 @@
+1681247022: mosquitto version 2.0.15 starting
+1681247022: Config loaded from /mosquitto/config/mosquitto.conf.
+1681247022: Opening ipv4 listen socket on port 1883.
+1681247022: Opening ipv6 listen socket on port 1883.
+1681247022: mosquitto version 2.0.15 running
+1681247379: mosquitto version 2.0.15 terminating
+1681247379: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681247675: mosquitto version 2.0.15 starting
+1681247675: Config loaded from /mosquitto/config/mosquitto.conf.
+1681247675: Opening ipv4 listen socket on port 1883.
+1681247675: Opening ipv6 listen socket on port 1883.
+1681247675: mosquitto version 2.0.15 running
+1681247678: New connection from 172.29.0.6:58648 on port 1883.
+1681247678: New client connected from 172.29.0.6:58648 as mqttjs_b4de7ce8 (p2, c1, k60).
+1681247678: No will message specified.
+1681247678: Sending CONNACK to mqttjs_b4de7ce8 (0, 0)
+1681247678: Received SUBSCRIBE from mqttjs_b4de7ce8
+1681247678: 	msg/# (QoS 0)
+1681247678: mqttjs_b4de7ce8 0 msg/#
+1681247678: Sending SUBACK to mqttjs_b4de7ce8
+1681247738: Received PINGREQ from mqttjs_b4de7ce8
+1681247738: Sending PINGRESP to mqttjs_b4de7ce8
+1681247798: Received PINGREQ from mqttjs_b4de7ce8
+1681247798: Sending PINGRESP to mqttjs_b4de7ce8
+1681247858: Received PINGREQ from mqttjs_b4de7ce8
+1681247858: Sending PINGRESP to mqttjs_b4de7ce8
+1681247899: Client mqttjs_b4de7ce8 closed its connection.
+1681247900: mosquitto version 2.0.15 terminating
+1681247900: Saving in-memory database to /mosquitto/data//mosquitto.db.
