@@ -5,8 +5,8 @@ FROM node:14
 WORKDIR /app
 
 # Copy the package.json and package-lock.json files to the container
-COPY ./etl/package*.json ./
-COPY ./etl/server.js ./
+COPY ./package*.json .
+COPY ./server.js .
 
 # Install the dependencies
 RUN npm install

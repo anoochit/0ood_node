@@ -4,12 +4,13 @@ const fetch = require("node-fetch");
 const moment = require("moment");
 
 // var mqtt_host
-const mqtt_host = process.env.MQTT_BROKER_HOST;
-const mqtt_port = process.env.MQTT_BROKER_PORT;
+const mqtt_host = process.env.MQTT_BROKER_HOST || "127.0.0.1";
+const mqtt_port = process.env.MQTT_BROKER_PORT || "1883";
 
 // var hasura
-const hasuraServer = process.env.HASURA_HOST;
-const hasuraSecret = process.env.HASURA_GRAPHQL_ADMIN_SECRET;
+const hasuraServer = process.env.HASURA_HOST || "127.0.0.1";
+const hasuraSecret =
+  process.env.HASURA_GRAPHQL_ADMIN_SECRET || "myadminsecretkey";
 const hasuraUrl = "http://" + hasuraServer + ":8080/v1/graphql";
 
 // hasura header
@@ -65,12 +66,14 @@ client.on("message", async function (topic, message) {
   try {
     const message_parsed = JSON.parse(message.toString());
     const timestamp = moment.unix(message_parsed.timestamp).toISOString();
+
     const { data, errors } = await execute(
       { device_id, message: message_parsed, timestamp },
       hasuraHeaders
     );
+
     if (errors) {
-      return logger.error(`Error inserting data: ${errors}`);
+      return logger.error(errors);
     }
     logger.info(`Data inserted for device: ${device_id}`);
   } catch (error) {

@@ -11,23 +11,22 @@ services:
       - 9001:9001
   auth:
     build:
-      context: .
-      dockerfile: /auth_service/Dockerfile
+      context: ./auth
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     depends_on:
       - "graphql-engine"
     restart: always
-    volumes:
-      - auth_data:/app
+ 
     environment:
       JWT_SECRET: "8d0a4102fa584bbe8308da94d3506bc8"
       HASURA_GRAPHQL: "http://graphql-engine:8080/v1/graphql"
-    command: npm start
+    # command: npm start
   etl:
     build:
-      context: .
-      dockerfile: /etl/Dockerfile
+      context: ./etl
+      dockerfile: Dockerfile
     depends_on:
       - "mosquitto"
       - "graphql-engine"
@@ -37,7 +36,7 @@ services:
       MQTT_BROKER_PORT: 1883
       HASURA_HOST: graphql-engine
       HASURA_GRAPHQL_ADMIN_SECRET: myadminsecretkey
-    command: npm start   
+    # command: npm start
   minio:
     image: minio/minio
     ports:
@@ -52,14 +51,14 @@ services:
   postgres:
     image: postgres:14
     ports:
-      - ":5432"
+      - "5432:5432"
     restart: always
     volumes:
       - ./db_data:/var/lib/postgresql/data
     environment:
       POSTGRES_PASSWORD: postgrespassword
   graphql-engine:
-    image: hasura/graphql-engine:v2.21.0
+    image: hasura/graphql-engine:v2.23.0-ce
     ports:
       - "8080:8080"
     depends_on:
@@ -75,4 +74,4 @@ services:
       HASURA_GRAPHQL_JWT_SECRET: '{ "type": "HS256", "key": "8d0a4102fa584bbe8308da94d3506bc8" }'
 volumes:
   db_data:
-  auth_data:
+ 
