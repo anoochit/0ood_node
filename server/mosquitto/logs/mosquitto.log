@@ -11298,3 +11298,2196 @@
 1681436402: Client mqttjs_fc8397a7 closed its connection.
 1681436404: mosquitto version 2.0.15 terminating
 1681436404: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681436623: mosquitto version 2.0.15 starting
+1681436623: Config loaded from /mosquitto/config/mosquitto.conf.
+1681436623: Opening ipv4 listen socket on port 1883.
+1681436623: Opening ipv6 listen socket on port 1883.
+1681436623: mosquitto version 2.0.15 running
+1681436625: New connection from 192.168.144.6:48344 on port 1883.
+1681436625: New client connected from 192.168.144.6:48344 as mqttjs_1c0a67c2 (p2, c1, k60).
+1681436625: No will message specified.
+1681436625: Sending CONNACK to mqttjs_1c0a67c2 (0, 0)
+1681436625: Received SUBSCRIBE from mqttjs_1c0a67c2
+1681436625: 	msg/# (QoS 0)
+1681436625: mqttjs_1c0a67c2 0 msg/#
+1681436625: Sending SUBACK to mqttjs_1c0a67c2
+1681436685: Received PINGREQ from mqttjs_1c0a67c2
+1681436685: Sending PINGRESP to mqttjs_1c0a67c2
+1681436745: Received PINGREQ from mqttjs_1c0a67c2
+1681436745: Sending PINGRESP to mqttjs_1c0a67c2
+1681436805: Received PINGREQ from mqttjs_1c0a67c2
+1681436805: Sending PINGRESP to mqttjs_1c0a67c2
+1681436865: Received PINGREQ from mqttjs_1c0a67c2
+1681436865: Sending PINGRESP to mqttjs_1c0a67c2
+1681436925: Received PINGREQ from mqttjs_1c0a67c2
+1681436925: Sending PINGRESP to mqttjs_1c0a67c2
+1681436985: Received PINGREQ from mqttjs_1c0a67c2
+1681436985: Sending PINGRESP to mqttjs_1c0a67c2
+1681437045: Received PINGREQ from mqttjs_1c0a67c2
+1681437045: Sending PINGRESP to mqttjs_1c0a67c2
+1681437105: Received PINGREQ from mqttjs_1c0a67c2
+1681437105: Sending PINGRESP to mqttjs_1c0a67c2
+1681437165: Received PINGREQ from mqttjs_1c0a67c2
+1681437165: Sending PINGRESP to mqttjs_1c0a67c2
+1681437225: Received PINGREQ from mqttjs_1c0a67c2
+1681437225: Sending PINGRESP to mqttjs_1c0a67c2
+1681437286: Received PINGREQ from mqttjs_1c0a67c2
+1681437286: Sending PINGRESP to mqttjs_1c0a67c2
+1681437346: Received PINGREQ from mqttjs_1c0a67c2
+1681437346: Sending PINGRESP to mqttjs_1c0a67c2
+1681437406: Received PINGREQ from mqttjs_1c0a67c2
+1681437406: Sending PINGRESP to mqttjs_1c0a67c2
+1681437466: Received PINGREQ from mqttjs_1c0a67c2
+1681437466: Sending PINGRESP to mqttjs_1c0a67c2
+1681437526: Received PINGREQ from mqttjs_1c0a67c2
+1681437526: Sending PINGRESP to mqttjs_1c0a67c2
+1681437586: Received PINGREQ from mqttjs_1c0a67c2
+1681437586: Sending PINGRESP to mqttjs_1c0a67c2
+1681437646: Received PINGREQ from mqttjs_1c0a67c2
+1681437646: Sending PINGRESP to mqttjs_1c0a67c2
+1681437706: Received PINGREQ from mqttjs_1c0a67c2
+1681437706: Sending PINGRESP to mqttjs_1c0a67c2
+1681437766: Received PINGREQ from mqttjs_1c0a67c2
+1681437766: Sending PINGRESP to mqttjs_1c0a67c2
+1681437826: Received PINGREQ from mqttjs_1c0a67c2
+1681437826: Sending PINGRESP to mqttjs_1c0a67c2
+1681437886: Received PINGREQ from mqttjs_1c0a67c2
+1681437886: Sending PINGRESP to mqttjs_1c0a67c2
+1681437946: Received PINGREQ from mqttjs_1c0a67c2
+1681437946: Sending PINGRESP to mqttjs_1c0a67c2
+1681438006: Received PINGREQ from mqttjs_1c0a67c2
+1681438006: Sending PINGRESP to mqttjs_1c0a67c2
+1681438066: Received PINGREQ from mqttjs_1c0a67c2
+1681438066: Sending PINGRESP to mqttjs_1c0a67c2
+1681438126: Received PINGREQ from mqttjs_1c0a67c2
+1681438126: Sending PINGRESP to mqttjs_1c0a67c2
+1681438186: Received PINGREQ from mqttjs_1c0a67c2
+1681438186: Sending PINGRESP to mqttjs_1c0a67c2
+1681438246: Received PINGREQ from mqttjs_1c0a67c2
+1681438246: Sending PINGRESP to mqttjs_1c0a67c2
+1681438307: Received PINGREQ from mqttjs_1c0a67c2
+1681438307: Sending PINGRESP to mqttjs_1c0a67c2
+1681438367: Received PINGREQ from mqttjs_1c0a67c2
+1681438367: Sending PINGRESP to mqttjs_1c0a67c2
+1681438423: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681438427: Received PINGREQ from mqttjs_1c0a67c2
+1681438427: Sending PINGRESP to mqttjs_1c0a67c2
+1681438487: Received PINGREQ from mqttjs_1c0a67c2
+1681438487: Sending PINGRESP to mqttjs_1c0a67c2
+1681438547: Received PINGREQ from mqttjs_1c0a67c2
+1681438547: Sending PINGRESP to mqttjs_1c0a67c2
+1681438607: Received PINGREQ from mqttjs_1c0a67c2
+1681438607: Sending PINGRESP to mqttjs_1c0a67c2
+1681438667: Received PINGREQ from mqttjs_1c0a67c2
+1681438667: Sending PINGRESP to mqttjs_1c0a67c2
+1681438727: Received PINGREQ from mqttjs_1c0a67c2
+1681438727: Sending PINGRESP to mqttjs_1c0a67c2
+1681438787: Received PINGREQ from mqttjs_1c0a67c2
+1681438787: Sending PINGRESP to mqttjs_1c0a67c2
+1681438847: Received PINGREQ from mqttjs_1c0a67c2
+1681438847: Sending PINGRESP to mqttjs_1c0a67c2
+1681438907: Received PINGREQ from mqttjs_1c0a67c2
+1681438907: Sending PINGRESP to mqttjs_1c0a67c2
+1681438967: Received PINGREQ from mqttjs_1c0a67c2
+1681438967: Sending PINGRESP to mqttjs_1c0a67c2
+1681439027: Received PINGREQ from mqttjs_1c0a67c2
+1681439027: Sending PINGRESP to mqttjs_1c0a67c2
+1681439087: Received PINGREQ from mqttjs_1c0a67c2
+1681439087: Sending PINGRESP to mqttjs_1c0a67c2
+1681439147: Received PINGREQ from mqttjs_1c0a67c2
+1681439147: Sending PINGRESP to mqttjs_1c0a67c2
+1681439207: Received PINGREQ from mqttjs_1c0a67c2
+1681439207: Sending PINGRESP to mqttjs_1c0a67c2
+1681439267: Received PINGREQ from mqttjs_1c0a67c2
+1681439267: Sending PINGRESP to mqttjs_1c0a67c2
+1681439327: Received PINGREQ from mqttjs_1c0a67c2
+1681439327: Sending PINGRESP to mqttjs_1c0a67c2
+1681439387: Received PINGREQ from mqttjs_1c0a67c2
+1681439387: Sending PINGRESP to mqttjs_1c0a67c2
+1681439447: Received PINGREQ from mqttjs_1c0a67c2
+1681439447: Sending PINGRESP to mqttjs_1c0a67c2
+1681439507: Received PINGREQ from mqttjs_1c0a67c2
+1681439507: Sending PINGRESP to mqttjs_1c0a67c2
+1681439568: Received PINGREQ from mqttjs_1c0a67c2
+1681439568: Sending PINGRESP to mqttjs_1c0a67c2
+1681439628: Received PINGREQ from mqttjs_1c0a67c2
+1681439628: Sending PINGRESP to mqttjs_1c0a67c2
+1681439688: Received PINGREQ from mqttjs_1c0a67c2
+1681439688: Sending PINGRESP to mqttjs_1c0a67c2
+1681439748: Received PINGREQ from mqttjs_1c0a67c2
+1681439748: Sending PINGRESP to mqttjs_1c0a67c2
+1681439808: Received PINGREQ from mqttjs_1c0a67c2
+1681439808: Sending PINGRESP to mqttjs_1c0a67c2
+1681439868: Received PINGREQ from mqttjs_1c0a67c2
+1681439868: Sending PINGRESP to mqttjs_1c0a67c2
+1681439928: Received PINGREQ from mqttjs_1c0a67c2
+1681439928: Sending PINGRESP to mqttjs_1c0a67c2
+1681439988: Received PINGREQ from mqttjs_1c0a67c2
+1681439988: Sending PINGRESP to mqttjs_1c0a67c2
+1681440048: Received PINGREQ from mqttjs_1c0a67c2
+1681440048: Sending PINGRESP to mqttjs_1c0a67c2
+1681440108: Received PINGREQ from mqttjs_1c0a67c2
+1681440108: Sending PINGRESP to mqttjs_1c0a67c2
+1681440168: Received PINGREQ from mqttjs_1c0a67c2
+1681440168: Sending PINGRESP to mqttjs_1c0a67c2
+1681440224: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681440228: Received PINGREQ from mqttjs_1c0a67c2
+1681440228: Sending PINGRESP to mqttjs_1c0a67c2
+1681440288: Received PINGREQ from mqttjs_1c0a67c2
+1681440288: Sending PINGRESP to mqttjs_1c0a67c2
+1681440348: Received PINGREQ from mqttjs_1c0a67c2
+1681440348: Sending PINGRESP to mqttjs_1c0a67c2
+1681440408: Received PINGREQ from mqttjs_1c0a67c2
+1681440408: Sending PINGRESP to mqttjs_1c0a67c2
+1681440468: Received PINGREQ from mqttjs_1c0a67c2
+1681440468: Sending PINGRESP to mqttjs_1c0a67c2
+1681440528: Received PINGREQ from mqttjs_1c0a67c2
+1681440528: Sending PINGRESP to mqttjs_1c0a67c2
+1681440588: Received PINGREQ from mqttjs_1c0a67c2
+1681440588: Sending PINGRESP to mqttjs_1c0a67c2
+1681440648: Received PINGREQ from mqttjs_1c0a67c2
+1681440648: Sending PINGRESP to mqttjs_1c0a67c2
+1681440708: Received PINGREQ from mqttjs_1c0a67c2
+1681440708: Sending PINGRESP to mqttjs_1c0a67c2
+1681440768: Received PINGREQ from mqttjs_1c0a67c2
+1681440768: Sending PINGRESP to mqttjs_1c0a67c2
+1681440829: Received PINGREQ from mqttjs_1c0a67c2
+1681440829: Sending PINGRESP to mqttjs_1c0a67c2
+1681440889: Received PINGREQ from mqttjs_1c0a67c2
+1681440889: Sending PINGRESP to mqttjs_1c0a67c2
+1681440949: Received PINGREQ from mqttjs_1c0a67c2
+1681440949: Sending PINGRESP to mqttjs_1c0a67c2
+1681441009: Received PINGREQ from mqttjs_1c0a67c2
+1681441009: Sending PINGRESP to mqttjs_1c0a67c2
+1681441069: Received PINGREQ from mqttjs_1c0a67c2
+1681441069: Sending PINGRESP to mqttjs_1c0a67c2
+1681441129: Received PINGREQ from mqttjs_1c0a67c2
+1681441129: Sending PINGRESP to mqttjs_1c0a67c2
+1681441189: Received PINGREQ from mqttjs_1c0a67c2
+1681441189: Sending PINGRESP to mqttjs_1c0a67c2
+1681441249: Received PINGREQ from mqttjs_1c0a67c2
+1681441249: Sending PINGRESP to mqttjs_1c0a67c2
+1681441309: Received PINGREQ from mqttjs_1c0a67c2
+1681441309: Sending PINGRESP to mqttjs_1c0a67c2
+1681441369: Received PINGREQ from mqttjs_1c0a67c2
+1681441369: Sending PINGRESP to mqttjs_1c0a67c2
+1681441429: Received PINGREQ from mqttjs_1c0a67c2
+1681441429: Sending PINGRESP to mqttjs_1c0a67c2
+1681441489: Received PINGREQ from mqttjs_1c0a67c2
+1681441489: Sending PINGRESP to mqttjs_1c0a67c2
+1681441549: Received PINGREQ from mqttjs_1c0a67c2
+1681441549: Sending PINGRESP to mqttjs_1c0a67c2
+1681441609: Received PINGREQ from mqttjs_1c0a67c2
+1681441609: Sending PINGRESP to mqttjs_1c0a67c2
+1681441669: Received PINGREQ from mqttjs_1c0a67c2
+1681441669: Sending PINGRESP to mqttjs_1c0a67c2
+1681441729: Received PINGREQ from mqttjs_1c0a67c2
+1681441729: Sending PINGRESP to mqttjs_1c0a67c2
+1681441789: Received PINGREQ from mqttjs_1c0a67c2
+1681441789: Sending PINGRESP to mqttjs_1c0a67c2
+1681441849: Received PINGREQ from mqttjs_1c0a67c2
+1681441849: Sending PINGRESP to mqttjs_1c0a67c2
+1681441909: Received PINGREQ from mqttjs_1c0a67c2
+1681441909: Sending PINGRESP to mqttjs_1c0a67c2
+1681441970: Received PINGREQ from mqttjs_1c0a67c2
+1681441970: Sending PINGRESP to mqttjs_1c0a67c2
+1681442025: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681442030: Received PINGREQ from mqttjs_1c0a67c2
+1681442030: Sending PINGRESP to mqttjs_1c0a67c2
+1681442090: Received PINGREQ from mqttjs_1c0a67c2
+1681442090: Sending PINGRESP to mqttjs_1c0a67c2
+1681442150: Received PINGREQ from mqttjs_1c0a67c2
+1681442150: Sending PINGRESP to mqttjs_1c0a67c2
+1681442210: Received PINGREQ from mqttjs_1c0a67c2
+1681442210: Sending PINGRESP to mqttjs_1c0a67c2
+1681442270: Received PINGREQ from mqttjs_1c0a67c2
+1681442270: Sending PINGRESP to mqttjs_1c0a67c2
+1681442330: Received PINGREQ from mqttjs_1c0a67c2
+1681442330: Sending PINGRESP to mqttjs_1c0a67c2
+1681442390: Received PINGREQ from mqttjs_1c0a67c2
+1681442390: Sending PINGRESP to mqttjs_1c0a67c2
+1681442450: Received PINGREQ from mqttjs_1c0a67c2
+1681442450: Sending PINGRESP to mqttjs_1c0a67c2
+1681442510: Received PINGREQ from mqttjs_1c0a67c2
+1681442510: Sending PINGRESP to mqttjs_1c0a67c2
+1681442570: Received PINGREQ from mqttjs_1c0a67c2
+1681442570: Sending PINGRESP to mqttjs_1c0a67c2
+1681442630: Received PINGREQ from mqttjs_1c0a67c2
+1681442630: Sending PINGRESP to mqttjs_1c0a67c2
+1681442690: Received PINGREQ from mqttjs_1c0a67c2
+1681442690: Sending PINGRESP to mqttjs_1c0a67c2
+1681442750: Received PINGREQ from mqttjs_1c0a67c2
+1681442750: Sending PINGRESP to mqttjs_1c0a67c2
+1681442810: Received PINGREQ from mqttjs_1c0a67c2
+1681442810: Sending PINGRESP to mqttjs_1c0a67c2
+1681442870: Received PINGREQ from mqttjs_1c0a67c2
+1681442870: Sending PINGRESP to mqttjs_1c0a67c2
+1681442930: Received PINGREQ from mqttjs_1c0a67c2
+1681442930: Sending PINGRESP to mqttjs_1c0a67c2
+1681442990: Received PINGREQ from mqttjs_1c0a67c2
+1681442990: Sending PINGRESP to mqttjs_1c0a67c2
+1681443050: Received PINGREQ from mqttjs_1c0a67c2
+1681443050: Sending PINGRESP to mqttjs_1c0a67c2
+1681443110: Received PINGREQ from mqttjs_1c0a67c2
+1681443110: Sending PINGRESP to mqttjs_1c0a67c2
+1681443170: Received PINGREQ from mqttjs_1c0a67c2
+1681443170: Sending PINGRESP to mqttjs_1c0a67c2
+1681443230: Received PINGREQ from mqttjs_1c0a67c2
+1681443230: Sending PINGRESP to mqttjs_1c0a67c2
+1681445502: Received PINGREQ from mqttjs_1c0a67c2
+1681445502: Sending PINGRESP to mqttjs_1c0a67c2
+1681445562: Received PINGREQ from mqttjs_1c0a67c2
+1681445562: Sending PINGRESP to mqttjs_1c0a67c2
+1681445622: Received PINGREQ from mqttjs_1c0a67c2
+1681445622: Sending PINGRESP to mqttjs_1c0a67c2
+1681445682: Received PINGREQ from mqttjs_1c0a67c2
+1681445682: Sending PINGRESP to mqttjs_1c0a67c2
+1681445742: Received PINGREQ from mqttjs_1c0a67c2
+1681445742: Sending PINGRESP to mqttjs_1c0a67c2
+1681445802: Received PINGREQ from mqttjs_1c0a67c2
+1681445802: Sending PINGRESP to mqttjs_1c0a67c2
+1681445862: Received PINGREQ from mqttjs_1c0a67c2
+1681445862: Sending PINGRESP to mqttjs_1c0a67c2
+1681445922: Received PINGREQ from mqttjs_1c0a67c2
+1681445922: Sending PINGRESP to mqttjs_1c0a67c2
+1681445982: Received PINGREQ from mqttjs_1c0a67c2
+1681445982: Sending PINGRESP to mqttjs_1c0a67c2
+1681446038: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681446042: Received PINGREQ from mqttjs_1c0a67c2
+1681446042: Sending PINGRESP to mqttjs_1c0a67c2
+1681446103: Received PINGREQ from mqttjs_1c0a67c2
+1681446103: Sending PINGRESP to mqttjs_1c0a67c2
+1681446163: Received PINGREQ from mqttjs_1c0a67c2
+1681446163: Sending PINGRESP to mqttjs_1c0a67c2
+1681446223: Received PINGREQ from mqttjs_1c0a67c2
+1681446223: Sending PINGRESP to mqttjs_1c0a67c2
+1681446283: Received PINGREQ from mqttjs_1c0a67c2
+1681446283: Sending PINGRESP to mqttjs_1c0a67c2
+1681446343: Received PINGREQ from mqttjs_1c0a67c2
+1681446343: Sending PINGRESP to mqttjs_1c0a67c2
+1681446403: Received PINGREQ from mqttjs_1c0a67c2
+1681446403: Sending PINGRESP to mqttjs_1c0a67c2
+1681446463: Received PINGREQ from mqttjs_1c0a67c2
+1681446463: Sending PINGRESP to mqttjs_1c0a67c2
+1681446523: Received PINGREQ from mqttjs_1c0a67c2
+1681446523: Sending PINGRESP to mqttjs_1c0a67c2
+1681446583: Received PINGREQ from mqttjs_1c0a67c2
+1681446583: Sending PINGRESP to mqttjs_1c0a67c2
+1681446643: Received PINGREQ from mqttjs_1c0a67c2
+1681446643: Sending PINGRESP to mqttjs_1c0a67c2
+1681446703: Received PINGREQ from mqttjs_1c0a67c2
+1681446703: Sending PINGRESP to mqttjs_1c0a67c2
+1681446763: Received PINGREQ from mqttjs_1c0a67c2
+1681446763: Sending PINGRESP to mqttjs_1c0a67c2
+1681446823: Received PINGREQ from mqttjs_1c0a67c2
+1681446823: Sending PINGRESP to mqttjs_1c0a67c2
+1681446883: Received PINGREQ from mqttjs_1c0a67c2
+1681446883: Sending PINGRESP to mqttjs_1c0a67c2
+1681446943: Received PINGREQ from mqttjs_1c0a67c2
+1681446943: Sending PINGRESP to mqttjs_1c0a67c2
+1681447003: Received PINGREQ from mqttjs_1c0a67c2
+1681447003: Sending PINGRESP to mqttjs_1c0a67c2
+1681447063: Received PINGREQ from mqttjs_1c0a67c2
+1681447063: Sending PINGRESP to mqttjs_1c0a67c2
+1681447123: Received PINGREQ from mqttjs_1c0a67c2
+1681447123: Sending PINGRESP to mqttjs_1c0a67c2
+1681447184: Received PINGREQ from mqttjs_1c0a67c2
+1681447184: Sending PINGRESP to mqttjs_1c0a67c2
+1681447244: Received PINGREQ from mqttjs_1c0a67c2
+1681447244: Sending PINGRESP to mqttjs_1c0a67c2
+1681447304: Received PINGREQ from mqttjs_1c0a67c2
+1681447304: Sending PINGRESP to mqttjs_1c0a67c2
+1681447364: Received PINGREQ from mqttjs_1c0a67c2
+1681447364: Sending PINGRESP to mqttjs_1c0a67c2
+1681447424: Received PINGREQ from mqttjs_1c0a67c2
+1681447424: Sending PINGRESP to mqttjs_1c0a67c2
+1681447484: Received PINGREQ from mqttjs_1c0a67c2
+1681447484: Sending PINGRESP to mqttjs_1c0a67c2
+1681447544: Received PINGREQ from mqttjs_1c0a67c2
+1681447544: Sending PINGRESP to mqttjs_1c0a67c2
+1681447604: Received PINGREQ from mqttjs_1c0a67c2
+1681447604: Sending PINGRESP to mqttjs_1c0a67c2
+1681447664: Received PINGREQ from mqttjs_1c0a67c2
+1681447664: Sending PINGRESP to mqttjs_1c0a67c2
+1681447724: Received PINGREQ from mqttjs_1c0a67c2
+1681447724: Sending PINGRESP to mqttjs_1c0a67c2
+1681447784: Received PINGREQ from mqttjs_1c0a67c2
+1681447784: Sending PINGRESP to mqttjs_1c0a67c2
+1681447838: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681447844: Received PINGREQ from mqttjs_1c0a67c2
+1681447844: Sending PINGRESP to mqttjs_1c0a67c2
+1681447904: Received PINGREQ from mqttjs_1c0a67c2
+1681447904: Sending PINGRESP to mqttjs_1c0a67c2
+1681447964: Received PINGREQ from mqttjs_1c0a67c2
+1681447964: Sending PINGRESP to mqttjs_1c0a67c2
+1681448024: Received PINGREQ from mqttjs_1c0a67c2
+1681448024: Sending PINGRESP to mqttjs_1c0a67c2
+1681448084: Received PINGREQ from mqttjs_1c0a67c2
+1681448084: Sending PINGRESP to mqttjs_1c0a67c2
+1681448144: Received PINGREQ from mqttjs_1c0a67c2
+1681448144: Sending PINGRESP to mqttjs_1c0a67c2
+1681448204: Received PINGREQ from mqttjs_1c0a67c2
+1681448204: Sending PINGRESP to mqttjs_1c0a67c2
+1681448264: Received PINGREQ from mqttjs_1c0a67c2
+1681448264: Sending PINGRESP to mqttjs_1c0a67c2
+1681448324: Received PINGREQ from mqttjs_1c0a67c2
+1681448324: Sending PINGRESP to mqttjs_1c0a67c2
+1681448385: Received PINGREQ from mqttjs_1c0a67c2
+1681448385: Sending PINGRESP to mqttjs_1c0a67c2
+1681448445: Received PINGREQ from mqttjs_1c0a67c2
+1681448445: Sending PINGRESP to mqttjs_1c0a67c2
+1681448505: Received PINGREQ from mqttjs_1c0a67c2
+1681448505: Sending PINGRESP to mqttjs_1c0a67c2
+1681448565: Received PINGREQ from mqttjs_1c0a67c2
+1681448565: Sending PINGRESP to mqttjs_1c0a67c2
+1681448625: Received PINGREQ from mqttjs_1c0a67c2
+1681448625: Sending PINGRESP to mqttjs_1c0a67c2
+1681448685: Received PINGREQ from mqttjs_1c0a67c2
+1681448685: Sending PINGRESP to mqttjs_1c0a67c2
+1681448745: Received PINGREQ from mqttjs_1c0a67c2
+1681448745: Sending PINGRESP to mqttjs_1c0a67c2
+1681448805: Received PINGREQ from mqttjs_1c0a67c2
+1681448805: Sending PINGRESP to mqttjs_1c0a67c2
+1681448865: Received PINGREQ from mqttjs_1c0a67c2
+1681448865: Sending PINGRESP to mqttjs_1c0a67c2
+1681448925: Received PINGREQ from mqttjs_1c0a67c2
+1681448925: Sending PINGRESP to mqttjs_1c0a67c2
+1681448985: Received PINGREQ from mqttjs_1c0a67c2
+1681448985: Sending PINGRESP to mqttjs_1c0a67c2
+1681449045: Received PINGREQ from mqttjs_1c0a67c2
+1681449045: Sending PINGRESP to mqttjs_1c0a67c2
+1681449105: Received PINGREQ from mqttjs_1c0a67c2
+1681449105: Sending PINGRESP to mqttjs_1c0a67c2
+1681449165: Received PINGREQ from mqttjs_1c0a67c2
+1681449165: Sending PINGRESP to mqttjs_1c0a67c2
+1681449225: Received PINGREQ from mqttjs_1c0a67c2
+1681449225: Sending PINGRESP to mqttjs_1c0a67c2
+1681449285: Received PINGREQ from mqttjs_1c0a67c2
+1681449285: Sending PINGRESP to mqttjs_1c0a67c2
+1681449345: Received PINGREQ from mqttjs_1c0a67c2
+1681449345: Sending PINGRESP to mqttjs_1c0a67c2
+1681449405: Received PINGREQ from mqttjs_1c0a67c2
+1681449405: Sending PINGRESP to mqttjs_1c0a67c2
+1681449465: Received PINGREQ from mqttjs_1c0a67c2
+1681449465: Sending PINGRESP to mqttjs_1c0a67c2
+1681449525: Received PINGREQ from mqttjs_1c0a67c2
+1681449525: Sending PINGRESP to mqttjs_1c0a67c2
+1681449586: Received PINGREQ from mqttjs_1c0a67c2
+1681449586: Sending PINGRESP to mqttjs_1c0a67c2
+1681449639: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681449646: Received PINGREQ from mqttjs_1c0a67c2
+1681449646: Sending PINGRESP to mqttjs_1c0a67c2
+1681449706: Received PINGREQ from mqttjs_1c0a67c2
+1681449706: Sending PINGRESP to mqttjs_1c0a67c2
+1681449766: Received PINGREQ from mqttjs_1c0a67c2
+1681449766: Sending PINGRESP to mqttjs_1c0a67c2
+1681449826: Received PINGREQ from mqttjs_1c0a67c2
+1681449826: Sending PINGRESP to mqttjs_1c0a67c2
+1681449886: Received PINGREQ from mqttjs_1c0a67c2
+1681449886: Sending PINGRESP to mqttjs_1c0a67c2
+1681449946: Received PINGREQ from mqttjs_1c0a67c2
+1681449946: Sending PINGRESP to mqttjs_1c0a67c2
+1681450006: Received PINGREQ from mqttjs_1c0a67c2
+1681450006: Sending PINGRESP to mqttjs_1c0a67c2
+1681450066: Received PINGREQ from mqttjs_1c0a67c2
+1681450066: Sending PINGRESP to mqttjs_1c0a67c2
+1681450126: Received PINGREQ from mqttjs_1c0a67c2
+1681450126: Sending PINGRESP to mqttjs_1c0a67c2
+1681450186: Received PINGREQ from mqttjs_1c0a67c2
+1681450186: Sending PINGRESP to mqttjs_1c0a67c2
+1681450246: Received PINGREQ from mqttjs_1c0a67c2
+1681450246: Sending PINGRESP to mqttjs_1c0a67c2
+1681450306: Received PINGREQ from mqttjs_1c0a67c2
+1681450306: Sending PINGRESP to mqttjs_1c0a67c2
+1681450362: New connection from 192.168.144.1:36078 on port 1883.
+1681450362: New client connected from 192.168.144.1:36078 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681450362: No will message specified.
+1681450362: Sending CONNACK to ESP32_1 (0, 0)
+1681450366: Received PINGREQ from mqttjs_1c0a67c2
+1681450366: Sending PINGRESP to mqttjs_1c0a67c2
+1681450389: Client ESP32_1 has exceeded timeout, disconnecting.
+1681450392: New connection from 192.168.144.1:48332 on port 1883.
+1681450392: New client connected from 192.168.144.1:48332 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681450392: No will message specified.
+1681450392: Sending CONNACK to ESP32_1 (0, 0)
+1681450392: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681450392: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681450418: Client ESP32_1 has exceeded timeout, disconnecting.
+1681450426: Received PINGREQ from mqttjs_1c0a67c2
+1681450426: Sending PINGRESP to mqttjs_1c0a67c2
+1681450486: Received PINGREQ from mqttjs_1c0a67c2
+1681450486: Sending PINGRESP to mqttjs_1c0a67c2
+1681450546: Received PINGREQ from mqttjs_1c0a67c2
+1681450546: Sending PINGRESP to mqttjs_1c0a67c2
+1681450562: New connection from 192.168.144.1:36996 on port 1883.
+1681450562: New client connected from 192.168.144.1:36996 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681450562: No will message specified.
+1681450562: Sending CONNACK to ESP32_1 (0, 0)
+1681450587: Client ESP32_1 has exceeded timeout, disconnecting.
+1681450592: New connection from 192.168.144.1:47160 on port 1883.
+1681450592: New client connected from 192.168.144.1:47160 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681450592: No will message specified.
+1681450592: Sending CONNACK to ESP32_1 (0, 0)
+1681450592: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681450592: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681450606: Received PINGREQ from mqttjs_1c0a67c2
+1681450606: Sending PINGRESP to mqttjs_1c0a67c2
+1681450616: Client ESP32_1 has exceeded timeout, disconnecting.
+1681450666: Received PINGREQ from mqttjs_1c0a67c2
+1681450666: Sending PINGRESP to mqttjs_1c0a67c2
+1681450685: New connection from 192.168.144.1:57978 on port 1883.
+1681450685: New client connected from 192.168.144.1:57978 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681450685: No will message specified.
+1681450685: Sending CONNACK to ESP32_1 (0, 0)
+1681450685: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681450685: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681450712: Client ESP32_1 has exceeded timeout, disconnecting.
+1681450726: Received PINGREQ from mqttjs_1c0a67c2
+1681450726: Sending PINGRESP to mqttjs_1c0a67c2
+1681450778: New connection from 192.168.144.1:38674 on port 1883.
+1681450778: New client connected from 192.168.144.1:38674 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681450778: No will message specified.
+1681450778: Sending CONNACK to ESP32_1 (0, 0)
+1681450778: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681450778: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681450786: Received PINGREQ from mqttjs_1c0a67c2
+1681450786: Sending PINGRESP to mqttjs_1c0a67c2
+1681450802: Client ESP32_1 has exceeded timeout, disconnecting.
+1681450831: New connection from 192.168.144.1:45382 on port 1883.
+1681450831: New client connected from 192.168.144.1:45382 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681450831: No will message specified.
+1681450831: Sending CONNACK to ESP32_1 (0, 0)
+1681450846: Received PINGREQ from mqttjs_1c0a67c2
+1681450846: Sending PINGRESP to mqttjs_1c0a67c2
+1681450856: Client ESP32_1 has exceeded timeout, disconnecting.
+1681450861: New connection from 192.168.144.1:38726 on port 1883.
+1681450861: New client connected from 192.168.144.1:38726 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681450861: No will message specified.
+1681450861: Sending CONNACK to ESP32_1 (0, 0)
+1681450861: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681450861: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681450886: Client ESP32_1 has exceeded timeout, disconnecting.
+1681450906: Received PINGREQ from mqttjs_1c0a67c2
+1681450906: Sending PINGRESP to mqttjs_1c0a67c2
+1681450966: Received PINGREQ from mqttjs_1c0a67c2
+1681450966: Sending PINGRESP to mqttjs_1c0a67c2
+1681450997: New connection from 192.168.144.1:55484 on port 1883.
+1681450997: New client connected from 192.168.144.1:55484 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681450997: No will message specified.
+1681450997: Sending CONNACK to ESP32_1 (0, 0)
+1681451025: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451026: Received PINGREQ from mqttjs_1c0a67c2
+1681451026: Sending PINGRESP to mqttjs_1c0a67c2
+1681451027: New connection from 192.168.144.1:42164 on port 1883.
+1681451027: New client connected from 192.168.144.1:42164 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451027: No will message specified.
+1681451027: Sending CONNACK to ESP32_1 (0, 0)
+1681451027: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451027: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451054: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451087: Received PINGREQ from mqttjs_1c0a67c2
+1681451087: Sending PINGRESP to mqttjs_1c0a67c2
+1681451120: New connection from 192.168.144.1:60612 on port 1883.
+1681451120: New client connected from 192.168.144.1:60612 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451120: No will message specified.
+1681451120: Sending CONNACK to ESP32_1 (0, 0)
+1681451120: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451120: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451144: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451147: Received PINGREQ from mqttjs_1c0a67c2
+1681451147: Sending PINGRESP to mqttjs_1c0a67c2
+1681451207: Received PINGREQ from mqttjs_1c0a67c2
+1681451207: Sending PINGRESP to mqttjs_1c0a67c2
+1681451213: New connection from 192.168.144.1:60640 on port 1883.
+1681451213: New client connected from 192.168.144.1:60640 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451213: No will message specified.
+1681451213: Sending CONNACK to ESP32_1 (0, 0)
+1681451213: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451213: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451240: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451267: Received PINGREQ from mqttjs_1c0a67c2
+1681451267: Sending PINGRESP to mqttjs_1c0a67c2
+1681451306: New connection from 192.168.144.1:60230 on port 1883.
+1681451306: New client connected from 192.168.144.1:60230 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451306: No will message specified.
+1681451306: Sending CONNACK to ESP32_1 (0, 0)
+1681451307: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451307: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451327: Received PINGREQ from mqttjs_1c0a67c2
+1681451327: Sending PINGRESP to mqttjs_1c0a67c2
+1681451330: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451387: Received PINGREQ from mqttjs_1c0a67c2
+1681451387: Sending PINGRESP to mqttjs_1c0a67c2
+1681451400: New connection from 192.168.144.1:53826 on port 1883.
+1681451400: New client connected from 192.168.144.1:53826 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451400: No will message specified.
+1681451400: Sending CONNACK to ESP32_1 (0, 0)
+1681451400: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451400: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451426: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451440: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681451447: Received PINGREQ from mqttjs_1c0a67c2
+1681451447: Sending PINGRESP to mqttjs_1c0a67c2
+1681451493: New connection from 192.168.144.1:59902 on port 1883.
+1681451493: New client connected from 192.168.144.1:59902 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451493: No will message specified.
+1681451493: Sending CONNACK to ESP32_1 (0, 0)
+1681451493: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451493: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451507: Received PINGREQ from mqttjs_1c0a67c2
+1681451507: Sending PINGRESP to mqttjs_1c0a67c2
+1681451517: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451567: Received PINGREQ from mqttjs_1c0a67c2
+1681451567: Sending PINGRESP to mqttjs_1c0a67c2
+1681451586: New connection from 192.168.144.1:55400 on port 1883.
+1681451586: New client connected from 192.168.144.1:55400 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451586: No will message specified.
+1681451586: Sending CONNACK to ESP32_1 (0, 0)
+1681451586: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451586: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451612: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451627: Received PINGREQ from mqttjs_1c0a67c2
+1681451627: Sending PINGRESP to mqttjs_1c0a67c2
+1681451679: New connection from 192.168.144.1:57966 on port 1883.
+1681451679: New client connected from 192.168.144.1:57966 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451679: No will message specified.
+1681451679: Sending CONNACK to ESP32_1 (0, 0)
+1681451679: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451679: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451687: Received PINGREQ from mqttjs_1c0a67c2
+1681451687: Sending PINGRESP to mqttjs_1c0a67c2
+1681451702: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451747: Received PINGREQ from mqttjs_1c0a67c2
+1681451747: Sending PINGRESP to mqttjs_1c0a67c2
+1681451772: New connection from 192.168.144.1:60836 on port 1883.
+1681451772: New client connected from 192.168.144.1:60836 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451772: No will message specified.
+1681451772: Sending CONNACK to ESP32_1 (0, 0)
+1681451772: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451772: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451799: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451807: Received PINGREQ from mqttjs_1c0a67c2
+1681451807: Sending PINGRESP to mqttjs_1c0a67c2
+1681451865: New connection from 192.168.144.1:33902 on port 1883.
+1681451865: New client connected from 192.168.144.1:33902 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451865: No will message specified.
+1681451865: Sending CONNACK to ESP32_1 (0, 0)
+1681451865: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451865: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451867: Received PINGREQ from mqttjs_1c0a67c2
+1681451867: Sending PINGRESP to mqttjs_1c0a67c2
+1681451888: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451927: Received PINGREQ from mqttjs_1c0a67c2
+1681451927: Sending PINGRESP to mqttjs_1c0a67c2
+1681451959: New connection from 192.168.144.1:46998 on port 1883.
+1681451959: New client connected from 192.168.144.1:46998 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681451959: No will message specified.
+1681451959: Sending CONNACK to ESP32_1 (0, 0)
+1681451959: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451959: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681451985: Client ESP32_1 has exceeded timeout, disconnecting.
+1681451987: Received PINGREQ from mqttjs_1c0a67c2
+1681451987: Sending PINGRESP to mqttjs_1c0a67c2
+1681452047: Received PINGREQ from mqttjs_1c0a67c2
+1681452047: Sending PINGRESP to mqttjs_1c0a67c2
+1681452052: New connection from 192.168.144.1:56324 on port 1883.
+1681452052: New client connected from 192.168.144.1:56324 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452052: No will message specified.
+1681452052: Sending CONNACK to ESP32_1 (0, 0)
+1681452052: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452052: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452074: Client ESP32_1 has exceeded timeout, disconnecting.
+1681452107: Received PINGREQ from mqttjs_1c0a67c2
+1681452107: Sending PINGRESP to mqttjs_1c0a67c2
+1681452145: New connection from 192.168.144.1:52424 on port 1883.
+1681452145: New client connected from 192.168.144.1:52424 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452145: No will message specified.
+1681452145: Sending CONNACK to ESP32_1 (0, 0)
+1681452145: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452145: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452167: Received PINGREQ from mqttjs_1c0a67c2
+1681452167: Sending PINGRESP to mqttjs_1c0a67c2
+1681452171: Client ESP32_1 has exceeded timeout, disconnecting.
+1681452227: Received PINGREQ from mqttjs_1c0a67c2
+1681452227: Sending PINGRESP to mqttjs_1c0a67c2
+1681452238: New connection from 192.168.144.1:34644 on port 1883.
+1681452238: New client connected from 192.168.144.1:34644 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452238: No will message specified.
+1681452238: Sending CONNACK to ESP32_1 (0, 0)
+1681452238: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452238: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452260: Client ESP32_1 has exceeded timeout, disconnecting.
+1681452287: Received PINGREQ from mqttjs_1c0a67c2
+1681452287: Sending PINGRESP to mqttjs_1c0a67c2
+1681452331: New connection from 192.168.144.1:40324 on port 1883.
+1681452331: New client connected from 192.168.144.1:40324 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452331: No will message specified.
+1681452331: Sending CONNACK to ESP32_1 (0, 0)
+1681452331: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452331: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452347: Received PINGREQ from mqttjs_1c0a67c2
+1681452347: Sending PINGRESP to mqttjs_1c0a67c2
+1681452356: Client ESP32_1 has exceeded timeout, disconnecting.
+1681452407: Received PINGREQ from mqttjs_1c0a67c2
+1681452407: Sending PINGRESP to mqttjs_1c0a67c2
+1681452424: New connection from 192.168.144.1:47304 on port 1883.
+1681452424: New client connected from 192.168.144.1:47304 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452424: No will message specified.
+1681452424: Sending CONNACK to ESP32_1 (0, 0)
+1681452424: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452424: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452446: Client ESP32_1 has exceeded timeout, disconnecting.
+1681452467: Received PINGREQ from mqttjs_1c0a67c2
+1681452467: Sending PINGRESP to mqttjs_1c0a67c2
+1681452517: New connection from 192.168.144.1:36112 on port 1883.
+1681452517: New client connected from 192.168.144.1:36112 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452517: No will message specified.
+1681452517: Sending CONNACK to ESP32_1 (0, 0)
+1681452517: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452517: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452527: Received PINGREQ from mqttjs_1c0a67c2
+1681452527: Sending PINGRESP to mqttjs_1c0a67c2
+1681452542: Client ESP32_1 has exceeded timeout, disconnecting.
+1681452587: Received PINGREQ from mqttjs_1c0a67c2
+1681452587: Sending PINGRESP to mqttjs_1c0a67c2
+1681452611: New connection from 192.168.144.1:34014 on port 1883.
+1681452611: New client connected from 192.168.144.1:34014 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452611: No will message specified.
+1681452611: Sending CONNACK to ESP32_1 (0, 0)
+1681452611: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452611: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452638: Client ESP32_1 has exceeded timeout, disconnecting.
+1681452647: Received PINGREQ from mqttjs_1c0a67c2
+1681452647: Sending PINGRESP to mqttjs_1c0a67c2
+1681452704: New connection from 192.168.144.1:48774 on port 1883.
+1681452704: New client connected from 192.168.144.1:48774 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452704: No will message specified.
+1681452704: Sending CONNACK to ESP32_1 (0, 0)
+1681452704: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452704: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452707: Received PINGREQ from mqttjs_1c0a67c2
+1681452707: Sending PINGRESP to mqttjs_1c0a67c2
+1681452728: Client ESP32_1 has exceeded timeout, disconnecting.
+1681452767: Received PINGREQ from mqttjs_1c0a67c2
+1681452767: Sending PINGRESP to mqttjs_1c0a67c2
+1681452797: New connection from 192.168.144.1:45060 on port 1883.
+1681452797: New client connected from 192.168.144.1:45060 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452797: No will message specified.
+1681452797: Sending CONNACK to ESP32_1 (0, 0)
+1681452797: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452797: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452824: Client ESP32_1 has exceeded timeout, disconnecting.
+1681452828: Received PINGREQ from mqttjs_1c0a67c2
+1681452828: Sending PINGRESP to mqttjs_1c0a67c2
+1681452888: Received PINGREQ from mqttjs_1c0a67c2
+1681452888: Sending PINGRESP to mqttjs_1c0a67c2
+1681452890: New connection from 192.168.144.1:37334 on port 1883.
+1681452890: New client connected from 192.168.144.1:37334 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452890: No will message specified.
+1681452890: Sending CONNACK to ESP32_1 (0, 0)
+1681452890: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452890: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452914: Client ESP32_1 has exceeded timeout, disconnecting.
+1681452948: Received PINGREQ from mqttjs_1c0a67c2
+1681452948: Sending PINGRESP to mqttjs_1c0a67c2
+1681452983: New connection from 192.168.144.1:43258 on port 1883.
+1681452983: New client connected from 192.168.144.1:43258 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681452983: No will message specified.
+1681452983: Sending CONNACK to ESP32_1 (0, 0)
+1681452983: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681452983: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453008: Received PINGREQ from mqttjs_1c0a67c2
+1681453008: Sending PINGRESP to mqttjs_1c0a67c2
+1681453010: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453068: Received PINGREQ from mqttjs_1c0a67c2
+1681453068: Sending PINGRESP to mqttjs_1c0a67c2
+1681453076: New connection from 192.168.144.1:45240 on port 1883.
+1681453076: New client connected from 192.168.144.1:45240 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681453076: No will message specified.
+1681453076: Sending CONNACK to ESP32_1 (0, 0)
+1681453076: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453076: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453100: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453128: Received PINGREQ from mqttjs_1c0a67c2
+1681453128: Sending PINGRESP to mqttjs_1c0a67c2
+1681453169: New connection from 192.168.144.1:60306 on port 1883.
+1681453169: New client connected from 192.168.144.1:60306 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681453169: No will message specified.
+1681453169: Sending CONNACK to ESP32_1 (0, 0)
+1681453169: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453169: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453188: Received PINGREQ from mqttjs_1c0a67c2
+1681453188: Sending PINGRESP to mqttjs_1c0a67c2
+1681453196: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453241: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681453248: Received PINGREQ from mqttjs_1c0a67c2
+1681453248: Sending PINGRESP to mqttjs_1c0a67c2
+1681453263: New connection from 192.168.144.1:47006 on port 1883.
+1681453263: New client connected from 192.168.144.1:47006 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681453263: No will message specified.
+1681453263: Sending CONNACK to ESP32_1 (0, 0)
+1681453263: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453263: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453286: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453308: Received PINGREQ from mqttjs_1c0a67c2
+1681453308: Sending PINGRESP to mqttjs_1c0a67c2
+1681453356: New connection from 192.168.144.1:47270 on port 1883.
+1681453356: New client connected from 192.168.144.1:47270 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681453356: No will message specified.
+1681453356: Sending CONNACK to ESP32_1 (0, 0)
+1681453356: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453356: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453368: Received PINGREQ from mqttjs_1c0a67c2
+1681453368: Sending PINGRESP to mqttjs_1c0a67c2
+1681453382: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453428: Received PINGREQ from mqttjs_1c0a67c2
+1681453428: Sending PINGRESP to mqttjs_1c0a67c2
+1681453449: New connection from 192.168.144.1:36278 on port 1883.
+1681453449: New client connected from 192.168.144.1:36278 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681453449: No will message specified.
+1681453449: Sending CONNACK to ESP32_1 (0, 0)
+1681453449: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453449: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453472: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453488: Received PINGREQ from mqttjs_1c0a67c2
+1681453488: Sending PINGRESP to mqttjs_1c0a67c2
+1681453542: New connection from 192.168.144.1:47558 on port 1883.
+1681453542: New client connected from 192.168.144.1:47558 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681453542: No will message specified.
+1681453542: Sending CONNACK to ESP32_1 (0, 0)
+1681453542: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453542: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453548: Received PINGREQ from mqttjs_1c0a67c2
+1681453548: Sending PINGRESP to mqttjs_1c0a67c2
+1681453569: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453608: Received PINGREQ from mqttjs_1c0a67c2
+1681453608: Sending PINGRESP to mqttjs_1c0a67c2
+1681453635: New connection from 192.168.144.1:38250 on port 1883.
+1681453635: New client connected from 192.168.144.1:38250 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681453635: No will message specified.
+1681453635: Sending CONNACK to ESP32_1 (0, 0)
+1681453635: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453635: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453658: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453668: Received PINGREQ from mqttjs_1c0a67c2
+1681453668: Sending PINGRESP to mqttjs_1c0a67c2
+1681453728: Received PINGREQ from mqttjs_1c0a67c2
+1681453728: Sending PINGRESP to mqttjs_1c0a67c2
+1681453728: New connection from 192.168.144.1:51652 on port 1883.
+1681453728: New client connected from 192.168.144.1:51652 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681453728: No will message specified.
+1681453728: Sending CONNACK to ESP32_1 (0, 0)
+1681453728: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453728: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453755: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453788: Received PINGREQ from mqttjs_1c0a67c2
+1681453788: Sending PINGRESP to mqttjs_1c0a67c2
+1681453821: New connection from 192.168.144.1:52494 on port 1883.
+1681453821: New client connected from 192.168.144.1:52494 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681453821: No will message specified.
+1681453821: Sending CONNACK to ESP32_1 (0, 0)
+1681453821: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453821: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453844: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453848: Received PINGREQ from mqttjs_1c0a67c2
+1681453848: Sending PINGRESP to mqttjs_1c0a67c2
+1681453908: Received PINGREQ from mqttjs_1c0a67c2
+1681453908: Sending PINGRESP to mqttjs_1c0a67c2
+1681453915: New connection from 192.168.144.1:42004 on port 1883.
+1681453915: New client connected from 192.168.144.1:42004 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681453915: No will message specified.
+1681453915: Sending CONNACK to ESP32_1 (0, 0)
+1681453915: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453915: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681453940: Client ESP32_1 has exceeded timeout, disconnecting.
+1681453968: Received PINGREQ from mqttjs_1c0a67c2
+1681453968: Sending PINGRESP to mqttjs_1c0a67c2
+1681454008: New connection from 192.168.144.1:48098 on port 1883.
+1681454008: New client connected from 192.168.144.1:48098 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454008: No will message specified.
+1681454008: Sending CONNACK to ESP32_1 (0, 0)
+1681454008: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454008: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454028: Received PINGREQ from mqttjs_1c0a67c2
+1681454028: Sending PINGRESP to mqttjs_1c0a67c2
+1681454030: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454088: Received PINGREQ from mqttjs_1c0a67c2
+1681454088: Sending PINGRESP to mqttjs_1c0a67c2
+1681454101: New connection from 192.168.144.1:47782 on port 1883.
+1681454101: New client connected from 192.168.144.1:47782 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454101: No will message specified.
+1681454101: Sending CONNACK to ESP32_1 (0, 0)
+1681454101: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454101: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454126: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454148: Received PINGREQ from mqttjs_1c0a67c2
+1681454148: Sending PINGRESP to mqttjs_1c0a67c2
+1681454194: New connection from 192.168.144.1:44294 on port 1883.
+1681454194: New client connected from 192.168.144.1:44294 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454194: No will message specified.
+1681454194: Sending CONNACK to ESP32_1 (0, 0)
+1681454194: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454194: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454208: Received PINGREQ from mqttjs_1c0a67c2
+1681454208: Sending PINGRESP to mqttjs_1c0a67c2
+1681454216: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454268: Received PINGREQ from mqttjs_1c0a67c2
+1681454268: Sending PINGRESP to mqttjs_1c0a67c2
+1681454287: New connection from 192.168.144.1:50854 on port 1883.
+1681454287: New client connected from 192.168.144.1:50854 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454287: No will message specified.
+1681454287: Sending CONNACK to ESP32_1 (0, 0)
+1681454287: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454287: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454313: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454328: Received PINGREQ from mqttjs_1c0a67c2
+1681454328: Sending PINGRESP to mqttjs_1c0a67c2
+1681454380: New connection from 192.168.144.1:49728 on port 1883.
+1681454380: New client connected from 192.168.144.1:49728 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454380: No will message specified.
+1681454380: Sending CONNACK to ESP32_1 (0, 0)
+1681454380: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454380: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454388: Received PINGREQ from mqttjs_1c0a67c2
+1681454388: Sending PINGRESP to mqttjs_1c0a67c2
+1681454403: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454448: Received PINGREQ from mqttjs_1c0a67c2
+1681454448: Sending PINGRESP to mqttjs_1c0a67c2
+1681454474: New connection from 192.168.144.1:60610 on port 1883.
+1681454474: New client connected from 192.168.144.1:60610 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454474: No will message specified.
+1681454474: Sending CONNACK to ESP32_1 (0, 0)
+1681454474: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454474: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454499: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454508: Received PINGREQ from mqttjs_1c0a67c2
+1681454508: Sending PINGRESP to mqttjs_1c0a67c2
+1681454567: New connection from 192.168.144.1:50670 on port 1883.
+1681454567: New client connected from 192.168.144.1:50670 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454567: No will message specified.
+1681454567: Sending CONNACK to ESP32_1 (0, 0)
+1681454567: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454567: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454568: Received PINGREQ from mqttjs_1c0a67c2
+1681454568: Sending PINGRESP to mqttjs_1c0a67c2
+1681454594: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454629: Received PINGREQ from mqttjs_1c0a67c2
+1681454629: Sending PINGRESP to mqttjs_1c0a67c2
+1681454660: New connection from 192.168.144.1:48954 on port 1883.
+1681454660: New client connected from 192.168.144.1:48954 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454660: No will message specified.
+1681454660: Sending CONNACK to ESP32_1 (0, 0)
+1681454660: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454660: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454685: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454689: Received PINGREQ from mqttjs_1c0a67c2
+1681454689: Sending PINGRESP to mqttjs_1c0a67c2
+1681454749: Received PINGREQ from mqttjs_1c0a67c2
+1681454749: Sending PINGRESP to mqttjs_1c0a67c2
+1681454753: New connection from 192.168.144.1:46548 on port 1883.
+1681454753: New client connected from 192.168.144.1:46548 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454753: No will message specified.
+1681454753: Sending CONNACK to ESP32_1 (0, 0)
+1681454753: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454753: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454780: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454809: Received PINGREQ from mqttjs_1c0a67c2
+1681454809: Sending PINGRESP to mqttjs_1c0a67c2
+1681454846: New connection from 192.168.144.1:40546 on port 1883.
+1681454846: New client connected from 192.168.144.1:40546 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454846: No will message specified.
+1681454846: Sending CONNACK to ESP32_1 (0, 0)
+1681454846: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454846: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454869: Received PINGREQ from mqttjs_1c0a67c2
+1681454869: Sending PINGRESP to mqttjs_1c0a67c2
+1681454870: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454929: Received PINGREQ from mqttjs_1c0a67c2
+1681454929: Sending PINGRESP to mqttjs_1c0a67c2
+1681454939: New connection from 192.168.144.1:58144 on port 1883.
+1681454939: New client connected from 192.168.144.1:58144 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681454939: No will message specified.
+1681454939: Sending CONNACK to ESP32_1 (0, 0)
+1681454939: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454939: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681454966: Client ESP32_1 has exceeded timeout, disconnecting.
+1681454989: Received PINGREQ from mqttjs_1c0a67c2
+1681454989: Sending PINGRESP to mqttjs_1c0a67c2
+1681455032: New connection from 192.168.144.1:44024 on port 1883.
+1681455032: New client connected from 192.168.144.1:44024 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455032: No will message specified.
+1681455032: Sending CONNACK to ESP32_1 (0, 0)
+1681455032: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455032: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455042: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681455049: Received PINGREQ from mqttjs_1c0a67c2
+1681455049: Sending PINGRESP to mqttjs_1c0a67c2
+1681455057: Client ESP32_1 has exceeded timeout, disconnecting.
+1681455109: Received PINGREQ from mqttjs_1c0a67c2
+1681455109: Sending PINGRESP to mqttjs_1c0a67c2
+1681455126: New connection from 192.168.144.1:35110 on port 1883.
+1681455126: New client connected from 192.168.144.1:35110 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455126: No will message specified.
+1681455126: Sending CONNACK to ESP32_1 (0, 0)
+1681455126: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455126: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455152: Client ESP32_1 has exceeded timeout, disconnecting.
+1681455169: Received PINGREQ from mqttjs_1c0a67c2
+1681455169: Sending PINGRESP to mqttjs_1c0a67c2
+1681455219: New connection from 192.168.144.1:47304 on port 1883.
+1681455219: New client connected from 192.168.144.1:47304 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455219: No will message specified.
+1681455219: Sending CONNACK to ESP32_1 (0, 0)
+1681455219: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455219: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455229: Received PINGREQ from mqttjs_1c0a67c2
+1681455229: Sending PINGRESP to mqttjs_1c0a67c2
+1681455242: Client ESP32_1 has exceeded timeout, disconnecting.
+1681455289: Received PINGREQ from mqttjs_1c0a67c2
+1681455289: Sending PINGRESP to mqttjs_1c0a67c2
+1681455312: New connection from 192.168.144.1:46660 on port 1883.
+1681455312: New client connected from 192.168.144.1:46660 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455312: No will message specified.
+1681455312: Sending CONNACK to ESP32_1 (0, 0)
+1681455312: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455312: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455338: Client ESP32_1 has exceeded timeout, disconnecting.
+1681455349: Received PINGREQ from mqttjs_1c0a67c2
+1681455349: Sending PINGRESP to mqttjs_1c0a67c2
+1681455405: New connection from 192.168.144.1:39638 on port 1883.
+1681455405: New client connected from 192.168.144.1:39638 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455405: No will message specified.
+1681455405: Sending CONNACK to ESP32_1 (0, 0)
+1681455405: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455405: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455409: Received PINGREQ from mqttjs_1c0a67c2
+1681455409: Sending PINGRESP to mqttjs_1c0a67c2
+1681455428: Client ESP32_1 has exceeded timeout, disconnecting.
+1681455469: Received PINGREQ from mqttjs_1c0a67c2
+1681455469: Sending PINGRESP to mqttjs_1c0a67c2
+1681455498: New connection from 192.168.144.1:60716 on port 1883.
+1681455498: New client connected from 192.168.144.1:60716 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455498: No will message specified.
+1681455498: Sending CONNACK to ESP32_1 (0, 0)
+1681455498: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455498: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455524: Client ESP32_1 has exceeded timeout, disconnecting.
+1681455529: Received PINGREQ from mqttjs_1c0a67c2
+1681455529: Sending PINGRESP to mqttjs_1c0a67c2
+1681455589: Received PINGREQ from mqttjs_1c0a67c2
+1681455589: Sending PINGRESP to mqttjs_1c0a67c2
+1681455591: New connection from 192.168.144.1:55906 on port 1883.
+1681455591: New client connected from 192.168.144.1:55906 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455591: No will message specified.
+1681455591: Sending CONNACK to ESP32_1 (0, 0)
+1681455591: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455591: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455614: Client ESP32_1 has exceeded timeout, disconnecting.
+1681455649: Received PINGREQ from mqttjs_1c0a67c2
+1681455649: Sending PINGRESP to mqttjs_1c0a67c2
+1681455684: New connection from 192.168.144.1:48564 on port 1883.
+1681455684: New client connected from 192.168.144.1:48564 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455684: No will message specified.
+1681455684: Sending CONNACK to ESP32_1 (0, 0)
+1681455684: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455684: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455709: Received PINGREQ from mqttjs_1c0a67c2
+1681455709: Sending PINGRESP to mqttjs_1c0a67c2
+1681455710: Client ESP32_1 has exceeded timeout, disconnecting.
+1681455769: Received PINGREQ from mqttjs_1c0a67c2
+1681455769: Sending PINGRESP to mqttjs_1c0a67c2
+1681455778: New connection from 192.168.144.1:54222 on port 1883.
+1681455778: New client connected from 192.168.144.1:54222 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455778: No will message specified.
+1681455778: Sending CONNACK to ESP32_1 (0, 0)
+1681455778: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455778: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455800: Client ESP32_1 has exceeded timeout, disconnecting.
+1681455829: Received PINGREQ from mqttjs_1c0a67c2
+1681455829: Sending PINGRESP to mqttjs_1c0a67c2
+1681455871: New connection from 192.168.144.1:36032 on port 1883.
+1681455871: New client connected from 192.168.144.1:36032 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455871: No will message specified.
+1681455871: Sending CONNACK to ESP32_1 (0, 0)
+1681455871: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455871: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455889: Received PINGREQ from mqttjs_1c0a67c2
+1681455889: Sending PINGRESP to mqttjs_1c0a67c2
+1681455896: Client ESP32_1 has exceeded timeout, disconnecting.
+1681455949: Received PINGREQ from mqttjs_1c0a67c2
+1681455949: Sending PINGRESP to mqttjs_1c0a67c2
+1681455964: New connection from 192.168.144.1:54292 on port 1883.
+1681455964: New client connected from 192.168.144.1:54292 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681455964: No will message specified.
+1681455964: Sending CONNACK to ESP32_1 (0, 0)
+1681455964: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455964: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681455986: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456009: Received PINGREQ from mqttjs_1c0a67c2
+1681456009: Sending PINGRESP to mqttjs_1c0a67c2
+1681456057: New connection from 192.168.144.1:52842 on port 1883.
+1681456057: New client connected from 192.168.144.1:52842 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456057: No will message specified.
+1681456057: Sending CONNACK to ESP32_1 (0, 0)
+1681456057: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456057: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456069: Received PINGREQ from mqttjs_1c0a67c2
+1681456069: Sending PINGRESP to mqttjs_1c0a67c2
+1681456082: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456129: Received PINGREQ from mqttjs_1c0a67c2
+1681456129: Sending PINGRESP to mqttjs_1c0a67c2
+1681456150: New connection from 192.168.144.1:53896 on port 1883.
+1681456150: New client connected from 192.168.144.1:53896 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456150: No will message specified.
+1681456150: Sending CONNACK to ESP32_1 (0, 0)
+1681456150: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456150: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456172: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456190: Received PINGREQ from mqttjs_1c0a67c2
+1681456190: Sending PINGRESP to mqttjs_1c0a67c2
+1681456243: New connection from 192.168.144.1:40230 on port 1883.
+1681456243: New client connected from 192.168.144.1:40230 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456243: No will message specified.
+1681456243: Sending CONNACK to ESP32_1 (0, 0)
+1681456243: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456243: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456250: Received PINGREQ from mqttjs_1c0a67c2
+1681456250: Sending PINGRESP to mqttjs_1c0a67c2
+1681456269: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456310: Received PINGREQ from mqttjs_1c0a67c2
+1681456310: Sending PINGRESP to mqttjs_1c0a67c2
+1681456336: New connection from 192.168.144.1:47318 on port 1883.
+1681456336: New client connected from 192.168.144.1:47318 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456336: No will message specified.
+1681456336: Sending CONNACK to ESP32_1 (0, 0)
+1681456336: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456336: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456364: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456370: Received PINGREQ from mqttjs_1c0a67c2
+1681456370: Sending PINGRESP to mqttjs_1c0a67c2
+1681456430: New connection from 192.168.144.1:36752 on port 1883.
+1681456430: New client connected from 192.168.144.1:36752 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456430: No will message specified.
+1681456430: Sending CONNACK to ESP32_1 (0, 0)
+1681456430: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456430: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456430: Received PINGREQ from mqttjs_1c0a67c2
+1681456430: Sending PINGRESP to mqttjs_1c0a67c2
+1681456455: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456490: Received PINGREQ from mqttjs_1c0a67c2
+1681456490: Sending PINGRESP to mqttjs_1c0a67c2
+1681456523: New connection from 192.168.144.1:35294 on port 1883.
+1681456523: New client connected from 192.168.144.1:35294 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456523: No will message specified.
+1681456523: Sending CONNACK to ESP32_1 (0, 0)
+1681456523: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456523: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456550: Received PINGREQ from mqttjs_1c0a67c2
+1681456550: Sending PINGRESP to mqttjs_1c0a67c2
+1681456550: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456610: Received PINGREQ from mqttjs_1c0a67c2
+1681456610: Sending PINGRESP to mqttjs_1c0a67c2
+1681456616: New connection from 192.168.144.1:33914 on port 1883.
+1681456616: New client connected from 192.168.144.1:33914 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456616: No will message specified.
+1681456616: Sending CONNACK to ESP32_1 (0, 0)
+1681456616: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456616: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456640: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456670: Received PINGREQ from mqttjs_1c0a67c2
+1681456670: Sending PINGRESP to mqttjs_1c0a67c2
+1681456709: New connection from 192.168.144.1:37066 on port 1883.
+1681456709: New client connected from 192.168.144.1:37066 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456709: No will message specified.
+1681456709: Sending CONNACK to ESP32_1 (0, 0)
+1681456709: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456709: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456730: Received PINGREQ from mqttjs_1c0a67c2
+1681456730: Sending PINGRESP to mqttjs_1c0a67c2
+1681456737: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456790: Received PINGREQ from mqttjs_1c0a67c2
+1681456790: Sending PINGRESP to mqttjs_1c0a67c2
+1681456802: New connection from 192.168.144.1:58906 on port 1883.
+1681456802: New client connected from 192.168.144.1:58906 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456802: No will message specified.
+1681456802: Sending CONNACK to ESP32_1 (0, 0)
+1681456802: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456802: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456826: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456843: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681456850: Received PINGREQ from mqttjs_1c0a67c2
+1681456850: Sending PINGRESP to mqttjs_1c0a67c2
+1681456895: New connection from 192.168.144.1:34614 on port 1883.
+1681456895: New client connected from 192.168.144.1:34614 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456895: No will message specified.
+1681456895: Sending CONNACK to ESP32_1 (0, 0)
+1681456895: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456895: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456910: Received PINGREQ from mqttjs_1c0a67c2
+1681456910: Sending PINGRESP to mqttjs_1c0a67c2
+1681456923: Client ESP32_1 has exceeded timeout, disconnecting.
+1681456970: Received PINGREQ from mqttjs_1c0a67c2
+1681456970: Sending PINGRESP to mqttjs_1c0a67c2
+1681456988: New connection from 192.168.144.1:59082 on port 1883.
+1681456988: New client connected from 192.168.144.1:59082 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681456988: No will message specified.
+1681456988: Sending CONNACK to ESP32_1 (0, 0)
+1681456988: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681456988: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457013: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457030: Received PINGREQ from mqttjs_1c0a67c2
+1681457030: Sending PINGRESP to mqttjs_1c0a67c2
+1681457082: New connection from 192.168.144.1:58270 on port 1883.
+1681457082: New client connected from 192.168.144.1:58270 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681457082: No will message specified.
+1681457082: Sending CONNACK to ESP32_1 (0, 0)
+1681457082: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457082: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457090: Received PINGREQ from mqttjs_1c0a67c2
+1681457090: Sending PINGRESP to mqttjs_1c0a67c2
+1681457109: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457150: Received PINGREQ from mqttjs_1c0a67c2
+1681457150: Sending PINGRESP to mqttjs_1c0a67c2
+1681457175: New connection from 192.168.144.1:48486 on port 1883.
+1681457175: New client connected from 192.168.144.1:48486 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681457175: No will message specified.
+1681457175: Sending CONNACK to ESP32_1 (0, 0)
+1681457175: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457175: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457199: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457210: Received PINGREQ from mqttjs_1c0a67c2
+1681457210: Sending PINGRESP to mqttjs_1c0a67c2
+1681457268: New connection from 192.168.144.1:37922 on port 1883.
+1681457268: New client connected from 192.168.144.1:37922 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681457268: No will message specified.
+1681457268: Sending CONNACK to ESP32_1 (0, 0)
+1681457268: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457268: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457270: Received PINGREQ from mqttjs_1c0a67c2
+1681457270: Sending PINGRESP to mqttjs_1c0a67c2
+1681457295: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457330: Received PINGREQ from mqttjs_1c0a67c2
+1681457330: Sending PINGRESP to mqttjs_1c0a67c2
+1681457361: New connection from 192.168.144.1:37538 on port 1883.
+1681457361: New client connected from 192.168.144.1:37538 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681457361: No will message specified.
+1681457361: Sending CONNACK to ESP32_1 (0, 0)
+1681457361: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457361: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457385: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457390: Received PINGREQ from mqttjs_1c0a67c2
+1681457390: Sending PINGRESP to mqttjs_1c0a67c2
+1681457450: Received PINGREQ from mqttjs_1c0a67c2
+1681457450: Sending PINGRESP to mqttjs_1c0a67c2
+1681457454: New connection from 192.168.144.1:57550 on port 1883.
+1681457454: New client connected from 192.168.144.1:57550 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681457454: No will message specified.
+1681457454: Sending CONNACK to ESP32_1 (0, 0)
+1681457454: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457454: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457481: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457510: Received PINGREQ from mqttjs_1c0a67c2
+1681457510: Sending PINGRESP to mqttjs_1c0a67c2
+1681457547: New connection from 192.168.144.1:47100 on port 1883.
+1681457547: New client connected from 192.168.144.1:47100 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681457547: No will message specified.
+1681457547: Sending CONNACK to ESP32_1 (0, 0)
+1681457547: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457547: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457570: Received PINGREQ from mqttjs_1c0a67c2
+1681457570: Sending PINGRESP to mqttjs_1c0a67c2
+1681457570: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457630: Received PINGREQ from mqttjs_1c0a67c2
+1681457630: Sending PINGRESP to mqttjs_1c0a67c2
+1681457640: New connection from 192.168.144.1:52470 on port 1883.
+1681457640: New client connected from 192.168.144.1:52470 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681457640: No will message specified.
+1681457640: Sending CONNACK to ESP32_1 (0, 0)
+1681457641: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457641: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457667: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457690: Received PINGREQ from mqttjs_1c0a67c2
+1681457690: Sending PINGRESP to mqttjs_1c0a67c2
+1681457734: New connection from 192.168.144.1:56410 on port 1883.
+1681457734: New client connected from 192.168.144.1:56410 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681457734: No will message specified.
+1681457734: Sending CONNACK to ESP32_1 (0, 0)
+1681457734: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457734: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457750: Received PINGREQ from mqttjs_1c0a67c2
+1681457750: Sending PINGRESP to mqttjs_1c0a67c2
+1681457756: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457810: Received PINGREQ from mqttjs_1c0a67c2
+1681457810: Sending PINGRESP to mqttjs_1c0a67c2
+1681457827: New connection from 192.168.144.1:49324 on port 1883.
+1681457827: New client connected from 192.168.144.1:49324 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681457827: No will message specified.
+1681457827: Sending CONNACK to ESP32_1 (0, 0)
+1681457827: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457827: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457853: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457870: Received PINGREQ from mqttjs_1c0a67c2
+1681457870: Sending PINGRESP to mqttjs_1c0a67c2
+1681457920: New connection from 192.168.144.1:47496 on port 1883.
+1681457920: New client connected from 192.168.144.1:47496 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681457920: No will message specified.
+1681457920: Sending CONNACK to ESP32_1 (0, 0)
+1681457920: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457920: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681457930: Received PINGREQ from mqttjs_1c0a67c2
+1681457930: Sending PINGRESP to mqttjs_1c0a67c2
+1681457943: Client ESP32_1 has exceeded timeout, disconnecting.
+1681457991: Received PINGREQ from mqttjs_1c0a67c2
+1681457991: Sending PINGRESP to mqttjs_1c0a67c2
+1681458013: New connection from 192.168.144.1:53680 on port 1883.
+1681458013: New client connected from 192.168.144.1:53680 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458013: No will message specified.
+1681458013: Sending CONNACK to ESP32_1 (0, 0)
+1681458013: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458013: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458039: Client ESP32_1 has exceeded timeout, disconnecting.
+1681458051: Received PINGREQ from mqttjs_1c0a67c2
+1681458051: Sending PINGRESP to mqttjs_1c0a67c2
+1681458106: New connection from 192.168.144.1:55426 on port 1883.
+1681458106: New client connected from 192.168.144.1:55426 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458106: No will message specified.
+1681458106: Sending CONNACK to ESP32_1 (0, 0)
+1681458106: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458106: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458111: Received PINGREQ from mqttjs_1c0a67c2
+1681458111: Sending PINGRESP to mqttjs_1c0a67c2
+1681458129: Client ESP32_1 has exceeded timeout, disconnecting.
+1681458171: Received PINGREQ from mqttjs_1c0a67c2
+1681458171: Sending PINGRESP to mqttjs_1c0a67c2
+1681458199: New connection from 192.168.144.1:54304 on port 1883.
+1681458199: New client connected from 192.168.144.1:54304 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458199: No will message specified.
+1681458199: Sending CONNACK to ESP32_1 (0, 0)
+1681458199: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458199: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458225: Client ESP32_1 has exceeded timeout, disconnecting.
+1681458231: Received PINGREQ from mqttjs_1c0a67c2
+1681458231: Sending PINGRESP to mqttjs_1c0a67c2
+1681458291: Received PINGREQ from mqttjs_1c0a67c2
+1681458291: Sending PINGRESP to mqttjs_1c0a67c2
+1681458293: New connection from 192.168.144.1:53890 on port 1883.
+1681458293: New client connected from 192.168.144.1:53890 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458293: No will message specified.
+1681458293: Sending CONNACK to ESP32_1 (0, 0)
+1681458293: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458293: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458320: Client ESP32_1 has exceeded timeout, disconnecting.
+1681458351: Received PINGREQ from mqttjs_1c0a67c2
+1681458351: Sending PINGRESP to mqttjs_1c0a67c2
+1681458386: New connection from 192.168.144.1:36762 on port 1883.
+1681458386: New client connected from 192.168.144.1:36762 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458386: No will message specified.
+1681458386: Sending CONNACK to ESP32_1 (0, 0)
+1681458386: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458386: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458410: Client ESP32_1 has exceeded timeout, disconnecting.
+1681458411: Received PINGREQ from mqttjs_1c0a67c2
+1681458411: Sending PINGRESP to mqttjs_1c0a67c2
+1681458471: Received PINGREQ from mqttjs_1c0a67c2
+1681458471: Sending PINGRESP to mqttjs_1c0a67c2
+1681458479: New connection from 192.168.144.1:42026 on port 1883.
+1681458479: New client connected from 192.168.144.1:42026 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458479: No will message specified.
+1681458479: Sending CONNACK to ESP32_1 (0, 0)
+1681458479: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458479: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458507: Client ESP32_1 has exceeded timeout, disconnecting.
+1681458531: Received PINGREQ from mqttjs_1c0a67c2
+1681458531: Sending PINGRESP to mqttjs_1c0a67c2
+1681458572: New connection from 192.168.144.1:37544 on port 1883.
+1681458572: New client connected from 192.168.144.1:37544 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458572: No will message specified.
+1681458572: Sending CONNACK to ESP32_1 (0, 0)
+1681458572: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458572: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458591: Received PINGREQ from mqttjs_1c0a67c2
+1681458591: Sending PINGRESP to mqttjs_1c0a67c2
+1681458596: Client ESP32_1 has exceeded timeout, disconnecting.
+1681458645: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681458651: Received PINGREQ from mqttjs_1c0a67c2
+1681458651: Sending PINGRESP to mqttjs_1c0a67c2
+1681458665: New connection from 192.168.144.1:55954 on port 1883.
+1681458665: New client connected from 192.168.144.1:55954 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458665: No will message specified.
+1681458665: Sending CONNACK to ESP32_1 (0, 0)
+1681458665: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458665: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458693: Client ESP32_1 has exceeded timeout, disconnecting.
+1681458711: Received PINGREQ from mqttjs_1c0a67c2
+1681458711: Sending PINGRESP to mqttjs_1c0a67c2
+1681458758: New connection from 192.168.144.1:56508 on port 1883.
+1681458758: New client connected from 192.168.144.1:56508 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458758: No will message specified.
+1681458758: Sending CONNACK to ESP32_1 (0, 0)
+1681458758: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458758: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458771: Received PINGREQ from mqttjs_1c0a67c2
+1681458771: Sending PINGRESP to mqttjs_1c0a67c2
+1681458783: Client ESP32_1 has exceeded timeout, disconnecting.
+1681458831: Received PINGREQ from mqttjs_1c0a67c2
+1681458831: Sending PINGRESP to mqttjs_1c0a67c2
+1681458851: New connection from 192.168.144.1:60692 on port 1883.
+1681458851: New client connected from 192.168.144.1:60692 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458851: No will message specified.
+1681458851: Sending CONNACK to ESP32_1 (0, 0)
+1681458851: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458851: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458879: Client ESP32_1 has exceeded timeout, disconnecting.
+1681458891: Received PINGREQ from mqttjs_1c0a67c2
+1681458891: Sending PINGRESP to mqttjs_1c0a67c2
+1681458945: New connection from 192.168.144.1:49588 on port 1883.
+1681458945: New client connected from 192.168.144.1:49588 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681458945: No will message specified.
+1681458945: Sending CONNACK to ESP32_1 (0, 0)
+1681458945: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458945: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681458951: Received PINGREQ from mqttjs_1c0a67c2
+1681458951: Sending PINGRESP to mqttjs_1c0a67c2
+1681458969: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459011: Received PINGREQ from mqttjs_1c0a67c2
+1681459011: Sending PINGRESP to mqttjs_1c0a67c2
+1681459038: New connection from 192.168.144.1:45122 on port 1883.
+1681459038: New client connected from 192.168.144.1:45122 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459038: No will message specified.
+1681459038: Sending CONNACK to ESP32_1 (0, 0)
+1681459038: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459038: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459065: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459071: Received PINGREQ from mqttjs_1c0a67c2
+1681459071: Sending PINGRESP to mqttjs_1c0a67c2
+1681459131: New connection from 192.168.144.1:52642 on port 1883.
+1681459131: New client connected from 192.168.144.1:52642 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459131: No will message specified.
+1681459131: Sending CONNACK to ESP32_1 (0, 0)
+1681459131: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459131: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459131: Received PINGREQ from mqttjs_1c0a67c2
+1681459131: Sending PINGRESP to mqttjs_1c0a67c2
+1681459154: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459191: Received PINGREQ from mqttjs_1c0a67c2
+1681459191: Sending PINGRESP to mqttjs_1c0a67c2
+1681459224: New connection from 192.168.144.1:50370 on port 1883.
+1681459224: New client connected from 192.168.144.1:50370 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459224: No will message specified.
+1681459224: Sending CONNACK to ESP32_1 (0, 0)
+1681459224: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459224: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459251: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459251: Received PINGREQ from mqttjs_1c0a67c2
+1681459251: Sending PINGRESP to mqttjs_1c0a67c2
+1681459311: Received PINGREQ from mqttjs_1c0a67c2
+1681459311: Sending PINGRESP to mqttjs_1c0a67c2
+1681459317: New connection from 192.168.144.1:57194 on port 1883.
+1681459317: New client connected from 192.168.144.1:57194 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459317: No will message specified.
+1681459317: Sending CONNACK to ESP32_1 (0, 0)
+1681459317: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459317: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459340: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459371: Received PINGREQ from mqttjs_1c0a67c2
+1681459371: Sending PINGRESP to mqttjs_1c0a67c2
+1681459410: New connection from 192.168.144.1:46866 on port 1883.
+1681459410: New client connected from 192.168.144.1:46866 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459410: No will message specified.
+1681459410: Sending CONNACK to ESP32_1 (0, 0)
+1681459410: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459410: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459431: Received PINGREQ from mqttjs_1c0a67c2
+1681459431: Sending PINGRESP to mqttjs_1c0a67c2
+1681459437: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459491: Received PINGREQ from mqttjs_1c0a67c2
+1681459491: Sending PINGRESP to mqttjs_1c0a67c2
+1681459503: New connection from 192.168.144.1:35048 on port 1883.
+1681459503: New client connected from 192.168.144.1:35048 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459503: No will message specified.
+1681459503: Sending CONNACK to ESP32_1 (0, 0)
+1681459503: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459503: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459527: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459551: Received PINGREQ from mqttjs_1c0a67c2
+1681459551: Sending PINGRESP to mqttjs_1c0a67c2
+1681459597: New connection from 192.168.144.1:39342 on port 1883.
+1681459597: New client connected from 192.168.144.1:39342 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459597: No will message specified.
+1681459597: Sending CONNACK to ESP32_1 (0, 0)
+1681459597: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459597: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459611: Received PINGREQ from mqttjs_1c0a67c2
+1681459611: Sending PINGRESP to mqttjs_1c0a67c2
+1681459623: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459671: Received PINGREQ from mqttjs_1c0a67c2
+1681459671: Sending PINGRESP to mqttjs_1c0a67c2
+1681459690: New connection from 192.168.144.1:58300 on port 1883.
+1681459690: New client connected from 192.168.144.1:58300 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459690: No will message specified.
+1681459690: Sending CONNACK to ESP32_1 (0, 0)
+1681459690: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459690: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459713: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459731: Received PINGREQ from mqttjs_1c0a67c2
+1681459731: Sending PINGRESP to mqttjs_1c0a67c2
+1681459783: New connection from 192.168.144.1:60058 on port 1883.
+1681459783: New client connected from 192.168.144.1:60058 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459783: No will message specified.
+1681459783: Sending CONNACK to ESP32_1 (0, 0)
+1681459783: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459783: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459791: Received PINGREQ from mqttjs_1c0a67c2
+1681459791: Sending PINGRESP to mqttjs_1c0a67c2
+1681459808: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459851: Received PINGREQ from mqttjs_1c0a67c2
+1681459851: Sending PINGRESP to mqttjs_1c0a67c2
+1681459876: New connection from 192.168.144.1:40326 on port 1883.
+1681459876: New client connected from 192.168.144.1:40326 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459876: No will message specified.
+1681459876: Sending CONNACK to ESP32_1 (0, 0)
+1681459876: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459876: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459899: Client ESP32_1 has exceeded timeout, disconnecting.
+1681459911: Received PINGREQ from mqttjs_1c0a67c2
+1681459911: Sending PINGRESP to mqttjs_1c0a67c2
+1681459969: New connection from 192.168.144.1:53612 on port 1883.
+1681459969: New client connected from 192.168.144.1:53612 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681459969: No will message specified.
+1681459969: Sending CONNACK to ESP32_1 (0, 0)
+1681459969: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459969: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681459971: Received PINGREQ from mqttjs_1c0a67c2
+1681459971: Sending PINGRESP to mqttjs_1c0a67c2
+1681459994: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460032: Received PINGREQ from mqttjs_1c0a67c2
+1681460032: Sending PINGRESP to mqttjs_1c0a67c2
+1681460062: New connection from 192.168.144.1:60422 on port 1883.
+1681460062: New client connected from 192.168.144.1:60422 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460062: No will message specified.
+1681460062: Sending CONNACK to ESP32_1 (0, 0)
+1681460062: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460062: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460085: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460092: Received PINGREQ from mqttjs_1c0a67c2
+1681460092: Sending PINGRESP to mqttjs_1c0a67c2
+1681460152: Received PINGREQ from mqttjs_1c0a67c2
+1681460152: Sending PINGRESP to mqttjs_1c0a67c2
+1681460155: New connection from 192.168.144.1:48126 on port 1883.
+1681460155: New client connected from 192.168.144.1:48126 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460155: No will message specified.
+1681460155: Sending CONNACK to ESP32_1 (0, 0)
+1681460155: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460155: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460180: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460212: Received PINGREQ from mqttjs_1c0a67c2
+1681460212: Sending PINGRESP to mqttjs_1c0a67c2
+1681460249: New connection from 192.168.144.1:51418 on port 1883.
+1681460249: New client connected from 192.168.144.1:51418 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460249: No will message specified.
+1681460249: Sending CONNACK to ESP32_1 (0, 0)
+1681460249: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460249: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460272: Received PINGREQ from mqttjs_1c0a67c2
+1681460272: Sending PINGRESP to mqttjs_1c0a67c2
+1681460276: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460332: Received PINGREQ from mqttjs_1c0a67c2
+1681460332: Sending PINGRESP to mqttjs_1c0a67c2
+1681460342: New connection from 192.168.144.1:60400 on port 1883.
+1681460342: New client connected from 192.168.144.1:60400 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460342: No will message specified.
+1681460342: Sending CONNACK to ESP32_1 (0, 0)
+1681460342: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460342: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460366: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460392: Received PINGREQ from mqttjs_1c0a67c2
+1681460392: Sending PINGRESP to mqttjs_1c0a67c2
+1681460435: New connection from 192.168.144.1:52516 on port 1883.
+1681460435: New client connected from 192.168.144.1:52516 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460435: No will message specified.
+1681460435: Sending CONNACK to ESP32_1 (0, 0)
+1681460435: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460435: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460445: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681460452: Received PINGREQ from mqttjs_1c0a67c2
+1681460452: Sending PINGRESP to mqttjs_1c0a67c2
+1681460463: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460512: Received PINGREQ from mqttjs_1c0a67c2
+1681460512: Sending PINGRESP to mqttjs_1c0a67c2
+1681460528: New connection from 192.168.144.1:33368 on port 1883.
+1681460528: New client connected from 192.168.144.1:33368 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460528: No will message specified.
+1681460528: Sending CONNACK to ESP32_1 (0, 0)
+1681460528: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460528: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460552: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460572: Received PINGREQ from mqttjs_1c0a67c2
+1681460572: Sending PINGRESP to mqttjs_1c0a67c2
+1681460621: New connection from 192.168.144.1:36572 on port 1883.
+1681460621: New client connected from 192.168.144.1:36572 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460621: No will message specified.
+1681460621: Sending CONNACK to ESP32_1 (0, 0)
+1681460621: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460621: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460632: Received PINGREQ from mqttjs_1c0a67c2
+1681460632: Sending PINGRESP to mqttjs_1c0a67c2
+1681460648: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460692: Received PINGREQ from mqttjs_1c0a67c2
+1681460692: Sending PINGRESP to mqttjs_1c0a67c2
+1681460714: New connection from 192.168.144.1:59744 on port 1883.
+1681460714: New client connected from 192.168.144.1:59744 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460714: No will message specified.
+1681460714: Sending CONNACK to ESP32_1 (0, 0)
+1681460714: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460714: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460738: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460752: Received PINGREQ from mqttjs_1c0a67c2
+1681460752: Sending PINGRESP to mqttjs_1c0a67c2
+1681460807: New connection from 192.168.144.1:53600 on port 1883.
+1681460807: New client connected from 192.168.144.1:53600 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460807: No will message specified.
+1681460807: Sending CONNACK to ESP32_1 (0, 0)
+1681460808: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460808: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460812: Received PINGREQ from mqttjs_1c0a67c2
+1681460812: Sending PINGRESP to mqttjs_1c0a67c2
+1681460834: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460872: Received PINGREQ from mqttjs_1c0a67c2
+1681460872: Sending PINGRESP to mqttjs_1c0a67c2
+1681460901: New connection from 192.168.144.1:49574 on port 1883.
+1681460901: New client connected from 192.168.144.1:49574 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460901: No will message specified.
+1681460901: Sending CONNACK to ESP32_1 (0, 0)
+1681460901: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460901: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460924: Client ESP32_1 has exceeded timeout, disconnecting.
+1681460932: Received PINGREQ from mqttjs_1c0a67c2
+1681460932: Sending PINGRESP to mqttjs_1c0a67c2
+1681460992: Received PINGREQ from mqttjs_1c0a67c2
+1681460992: Sending PINGRESP to mqttjs_1c0a67c2
+1681460994: New connection from 192.168.144.1:43256 on port 1883.
+1681460994: New client connected from 192.168.144.1:43256 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681460994: No will message specified.
+1681460994: Sending CONNACK to ESP32_1 (0, 0)
+1681460994: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681460994: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461021: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461052: Received PINGREQ from mqttjs_1c0a67c2
+1681461052: Sending PINGRESP to mqttjs_1c0a67c2
+1681461087: New connection from 192.168.144.1:46080 on port 1883.
+1681461087: New client connected from 192.168.144.1:46080 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681461087: No will message specified.
+1681461087: Sending CONNACK to ESP32_1 (0, 0)
+1681461087: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461087: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461111: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461112: Received PINGREQ from mqttjs_1c0a67c2
+1681461112: Sending PINGRESP to mqttjs_1c0a67c2
+1681461172: Received PINGREQ from mqttjs_1c0a67c2
+1681461172: Sending PINGRESP to mqttjs_1c0a67c2
+1681461180: New connection from 192.168.144.1:44796 on port 1883.
+1681461180: New client connected from 192.168.144.1:44796 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681461180: No will message specified.
+1681461180: Sending CONNACK to ESP32_1 (0, 0)
+1681461180: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461180: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461207: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461232: Received PINGREQ from mqttjs_1c0a67c2
+1681461232: Sending PINGRESP to mqttjs_1c0a67c2
+1681461273: New connection from 192.168.144.1:48750 on port 1883.
+1681461273: New client connected from 192.168.144.1:48750 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681461273: No will message specified.
+1681461273: Sending CONNACK to ESP32_1 (0, 0)
+1681461273: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461273: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461292: Received PINGREQ from mqttjs_1c0a67c2
+1681461292: Sending PINGRESP to mqttjs_1c0a67c2
+1681461297: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461352: Received PINGREQ from mqttjs_1c0a67c2
+1681461352: Sending PINGRESP to mqttjs_1c0a67c2
+1681461366: New connection from 192.168.144.1:50750 on port 1883.
+1681461366: New client connected from 192.168.144.1:50750 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681461366: No will message specified.
+1681461366: Sending CONNACK to ESP32_1 (0, 0)
+1681461366: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461366: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461393: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461412: Received PINGREQ from mqttjs_1c0a67c2
+1681461412: Sending PINGRESP to mqttjs_1c0a67c2
+1681461460: New connection from 192.168.144.1:45246 on port 1883.
+1681461460: New client connected from 192.168.144.1:45246 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681461460: No will message specified.
+1681461460: Sending CONNACK to ESP32_1 (0, 0)
+1681461460: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461460: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461472: Received PINGREQ from mqttjs_1c0a67c2
+1681461472: Sending PINGRESP to mqttjs_1c0a67c2
+1681461482: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461532: Received PINGREQ from mqttjs_1c0a67c2
+1681461532: Sending PINGRESP to mqttjs_1c0a67c2
+1681461553: New connection from 192.168.144.1:47404 on port 1883.
+1681461553: New client connected from 192.168.144.1:47404 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681461553: No will message specified.
+1681461553: Sending CONNACK to ESP32_1 (0, 0)
+1681461553: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461553: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461578: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461592: Received PINGREQ from mqttjs_1c0a67c2
+1681461592: Sending PINGRESP to mqttjs_1c0a67c2
+1681461646: New connection from 192.168.144.1:48414 on port 1883.
+1681461646: New client connected from 192.168.144.1:48414 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681461646: No will message specified.
+1681461646: Sending CONNACK to ESP32_1 (0, 0)
+1681461646: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461646: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461652: Received PINGREQ from mqttjs_1c0a67c2
+1681461652: Sending PINGRESP to mqttjs_1c0a67c2
+1681461669: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461712: Received PINGREQ from mqttjs_1c0a67c2
+1681461712: Sending PINGRESP to mqttjs_1c0a67c2
+1681461739: New connection from 192.168.144.1:43638 on port 1883.
+1681461739: New client connected from 192.168.144.1:43638 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681461739: No will message specified.
+1681461739: Sending CONNACK to ESP32_1 (0, 0)
+1681461739: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461739: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461764: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461772: Received PINGREQ from mqttjs_1c0a67c2
+1681461772: Sending PINGRESP to mqttjs_1c0a67c2
+1681461832: New connection from 192.168.144.1:43262 on port 1883.
+1681461832: New client connected from 192.168.144.1:43262 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681461832: No will message specified.
+1681461832: Sending CONNACK to ESP32_1 (0, 0)
+1681461832: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461832: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461832: Received PINGREQ from mqttjs_1c0a67c2
+1681461832: Sending PINGRESP to mqttjs_1c0a67c2
+1681461855: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461892: Received PINGREQ from mqttjs_1c0a67c2
+1681461892: Sending PINGRESP to mqttjs_1c0a67c2
+1681461925: New connection from 192.168.144.1:42630 on port 1883.
+1681461925: New client connected from 192.168.144.1:42630 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681461925: No will message specified.
+1681461925: Sending CONNACK to ESP32_1 (0, 0)
+1681461925: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461925: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681461950: Client ESP32_1 has exceeded timeout, disconnecting.
+1681461953: Received PINGREQ from mqttjs_1c0a67c2
+1681461953: Sending PINGRESP to mqttjs_1c0a67c2
+1681462013: Received PINGREQ from mqttjs_1c0a67c2
+1681462013: Sending PINGRESP to mqttjs_1c0a67c2
+1681462018: New connection from 192.168.144.1:47074 on port 1883.
+1681462018: New client connected from 192.168.144.1:47074 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462018: No will message specified.
+1681462018: Sending CONNACK to ESP32_1 (0, 0)
+1681462018: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462018: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462041: Client ESP32_1 has exceeded timeout, disconnecting.
+1681462073: Received PINGREQ from mqttjs_1c0a67c2
+1681462073: Sending PINGRESP to mqttjs_1c0a67c2
+1681462112: New connection from 192.168.144.1:50158 on port 1883.
+1681462112: New client connected from 192.168.144.1:50158 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462112: No will message specified.
+1681462112: Sending CONNACK to ESP32_1 (0, 0)
+1681462112: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462112: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462133: Received PINGREQ from mqttjs_1c0a67c2
+1681462133: Sending PINGRESP to mqttjs_1c0a67c2
+1681462137: Client ESP32_1 has exceeded timeout, disconnecting.
+1681462193: Received PINGREQ from mqttjs_1c0a67c2
+1681462193: Sending PINGRESP to mqttjs_1c0a67c2
+1681462205: New connection from 192.168.144.1:51696 on port 1883.
+1681462205: New client connected from 192.168.144.1:51696 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462205: No will message specified.
+1681462205: Sending CONNACK to ESP32_1 (0, 0)
+1681462205: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462205: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462233: Client ESP32_1 has exceeded timeout, disconnecting.
+1681462247: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681462253: Received PINGREQ from mqttjs_1c0a67c2
+1681462253: Sending PINGRESP to mqttjs_1c0a67c2
+1681462298: New connection from 192.168.144.1:41006 on port 1883.
+1681462298: New client connected from 192.168.144.1:41006 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462298: No will message specified.
+1681462298: Sending CONNACK to ESP32_1 (0, 0)
+1681462298: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462298: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462313: Received PINGREQ from mqttjs_1c0a67c2
+1681462313: Sending PINGRESP to mqttjs_1c0a67c2
+1681462323: Client ESP32_1 has exceeded timeout, disconnecting.
+1681462373: Received PINGREQ from mqttjs_1c0a67c2
+1681462373: Sending PINGRESP to mqttjs_1c0a67c2
+1681462391: New connection from 192.168.144.1:38550 on port 1883.
+1681462391: New client connected from 192.168.144.1:38550 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462391: No will message specified.
+1681462391: Sending CONNACK to ESP32_1 (0, 0)
+1681462391: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462391: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462419: Client ESP32_1 has exceeded timeout, disconnecting.
+1681462433: Received PINGREQ from mqttjs_1c0a67c2
+1681462433: Sending PINGRESP to mqttjs_1c0a67c2
+1681462484: New connection from 192.168.144.1:51524 on port 1883.
+1681462484: New client connected from 192.168.144.1:51524 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462484: No will message specified.
+1681462484: Sending CONNACK to ESP32_1 (0, 0)
+1681462484: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462484: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462493: Received PINGREQ from mqttjs_1c0a67c2
+1681462493: Sending PINGRESP to mqttjs_1c0a67c2
+1681462509: Client ESP32_1 has exceeded timeout, disconnecting.
+1681462553: Received PINGREQ from mqttjs_1c0a67c2
+1681462553: Sending PINGRESP to mqttjs_1c0a67c2
+1681462577: New connection from 192.168.144.1:57104 on port 1883.
+1681462577: New client connected from 192.168.144.1:57104 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462577: No will message specified.
+1681462577: Sending CONNACK to ESP32_1 (0, 0)
+1681462577: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462577: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462605: Client ESP32_1 has exceeded timeout, disconnecting.
+1681462613: Received PINGREQ from mqttjs_1c0a67c2
+1681462613: Sending PINGRESP to mqttjs_1c0a67c2
+1681462670: New connection from 192.168.144.1:36530 on port 1883.
+1681462670: New client connected from 192.168.144.1:36530 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462670: No will message specified.
+1681462670: Sending CONNACK to ESP32_1 (0, 0)
+1681462670: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462670: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462673: Received PINGREQ from mqttjs_1c0a67c2
+1681462673: Sending PINGRESP to mqttjs_1c0a67c2
+1681462695: Client ESP32_1 has exceeded timeout, disconnecting.
+1681462733: Received PINGREQ from mqttjs_1c0a67c2
+1681462733: Sending PINGRESP to mqttjs_1c0a67c2
+1681462764: New connection from 192.168.144.1:41560 on port 1883.
+1681462764: New client connected from 192.168.144.1:41560 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462764: No will message specified.
+1681462764: Sending CONNACK to ESP32_1 (0, 0)
+1681462764: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462764: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462791: Client ESP32_1 has exceeded timeout, disconnecting.
+1681462793: Received PINGREQ from mqttjs_1c0a67c2
+1681462793: Sending PINGRESP to mqttjs_1c0a67c2
+1681462853: Received PINGREQ from mqttjs_1c0a67c2
+1681462853: Sending PINGRESP to mqttjs_1c0a67c2
+1681462857: New connection from 192.168.144.1:33624 on port 1883.
+1681462857: New client connected from 192.168.144.1:33624 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462857: No will message specified.
+1681462857: Sending CONNACK to ESP32_1 (0, 0)
+1681462857: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462857: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462881: Client ESP32_1 has exceeded timeout, disconnecting.
+1681462913: Received PINGREQ from mqttjs_1c0a67c2
+1681462913: Sending PINGRESP to mqttjs_1c0a67c2
+1681462950: New connection from 192.168.144.1:58952 on port 1883.
+1681462950: New client connected from 192.168.144.1:58952 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681462950: No will message specified.
+1681462950: Sending CONNACK to ESP32_1 (0, 0)
+1681462950: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462950: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681462973: Received PINGREQ from mqttjs_1c0a67c2
+1681462973: Sending PINGRESP to mqttjs_1c0a67c2
+1681462976: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463033: Received PINGREQ from mqttjs_1c0a67c2
+1681463033: Sending PINGRESP to mqttjs_1c0a67c2
+1681463043: New connection from 192.168.144.1:34876 on port 1883.
+1681463043: New client connected from 192.168.144.1:34876 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463043: No will message specified.
+1681463043: Sending CONNACK to ESP32_1 (0, 0)
+1681463043: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463043: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463067: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463093: Received PINGREQ from mqttjs_1c0a67c2
+1681463093: Sending PINGRESP to mqttjs_1c0a67c2
+1681463136: New connection from 192.168.144.1:44268 on port 1883.
+1681463136: New client connected from 192.168.144.1:44268 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463136: No will message specified.
+1681463136: Sending CONNACK to ESP32_1 (0, 0)
+1681463136: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463136: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463153: Received PINGREQ from mqttjs_1c0a67c2
+1681463153: Sending PINGRESP to mqttjs_1c0a67c2
+1681463163: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463213: Received PINGREQ from mqttjs_1c0a67c2
+1681463213: Sending PINGRESP to mqttjs_1c0a67c2
+1681463229: New connection from 192.168.144.1:49126 on port 1883.
+1681463229: New client connected from 192.168.144.1:49126 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463229: No will message specified.
+1681463229: Sending CONNACK to ESP32_1 (0, 0)
+1681463229: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463229: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463253: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463273: Received PINGREQ from mqttjs_1c0a67c2
+1681463273: Sending PINGRESP to mqttjs_1c0a67c2
+1681463322: New connection from 192.168.144.1:40420 on port 1883.
+1681463322: New client connected from 192.168.144.1:40420 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463322: No will message specified.
+1681463322: Sending CONNACK to ESP32_1 (0, 0)
+1681463322: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463322: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463333: Received PINGREQ from mqttjs_1c0a67c2
+1681463333: Sending PINGRESP to mqttjs_1c0a67c2
+1681463349: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463393: Received PINGREQ from mqttjs_1c0a67c2
+1681463393: Sending PINGRESP to mqttjs_1c0a67c2
+1681463416: New connection from 192.168.144.1:58648 on port 1883.
+1681463416: New client connected from 192.168.144.1:58648 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463416: No will message specified.
+1681463416: Sending CONNACK to ESP32_1 (0, 0)
+1681463416: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463416: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463439: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463453: Received PINGREQ from mqttjs_1c0a67c2
+1681463453: Sending PINGRESP to mqttjs_1c0a67c2
+1681463509: New connection from 192.168.144.1:37680 on port 1883.
+1681463509: New client connected from 192.168.144.1:37680 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463509: No will message specified.
+1681463509: Sending CONNACK to ESP32_1 (0, 0)
+1681463509: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463509: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463513: Received PINGREQ from mqttjs_1c0a67c2
+1681463513: Sending PINGRESP to mqttjs_1c0a67c2
+1681463535: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463573: Received PINGREQ from mqttjs_1c0a67c2
+1681463573: Sending PINGRESP to mqttjs_1c0a67c2
+1681463602: New connection from 192.168.144.1:50946 on port 1883.
+1681463602: New client connected from 192.168.144.1:50946 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463602: No will message specified.
+1681463602: Sending CONNACK to ESP32_1 (0, 0)
+1681463602: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463602: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463624: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463633: Received PINGREQ from mqttjs_1c0a67c2
+1681463633: Sending PINGRESP to mqttjs_1c0a67c2
+1681463694: Received PINGREQ from mqttjs_1c0a67c2
+1681463694: Sending PINGRESP to mqttjs_1c0a67c2
+1681463695: New connection from 192.168.144.1:33134 on port 1883.
+1681463695: New client connected from 192.168.144.1:33134 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463695: No will message specified.
+1681463695: Sending CONNACK to ESP32_1 (0, 0)
+1681463695: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463695: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463721: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463754: Received PINGREQ from mqttjs_1c0a67c2
+1681463754: Sending PINGRESP to mqttjs_1c0a67c2
+1681463788: New connection from 192.168.144.1:59902 on port 1883.
+1681463788: New client connected from 192.168.144.1:59902 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463788: No will message specified.
+1681463788: Sending CONNACK to ESP32_1 (0, 0)
+1681463788: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463788: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463810: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463814: Received PINGREQ from mqttjs_1c0a67c2
+1681463814: Sending PINGRESP to mqttjs_1c0a67c2
+1681463874: Received PINGREQ from mqttjs_1c0a67c2
+1681463874: Sending PINGRESP to mqttjs_1c0a67c2
+1681463881: New connection from 192.168.144.1:49716 on port 1883.
+1681463881: New client connected from 192.168.144.1:49716 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463881: No will message specified.
+1681463881: Sending CONNACK to ESP32_1 (0, 0)
+1681463881: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463881: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463907: Client ESP32_1 has exceeded timeout, disconnecting.
+1681463934: Received PINGREQ from mqttjs_1c0a67c2
+1681463934: Sending PINGRESP to mqttjs_1c0a67c2
+1681463974: New connection from 192.168.144.1:32856 on port 1883.
+1681463974: New client connected from 192.168.144.1:32856 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681463974: No will message specified.
+1681463974: Sending CONNACK to ESP32_1 (0, 0)
+1681463974: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463974: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681463994: Received PINGREQ from mqttjs_1c0a67c2
+1681463994: Sending PINGRESP to mqttjs_1c0a67c2
+1681464003: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464048: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681464054: Received PINGREQ from mqttjs_1c0a67c2
+1681464054: Sending PINGRESP to mqttjs_1c0a67c2
+1681464068: New connection from 192.168.144.1:57474 on port 1883.
+1681464068: New client connected from 192.168.144.1:57474 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464068: No will message specified.
+1681464068: Sending CONNACK to ESP32_1 (0, 0)
+1681464068: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464068: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464093: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464114: Received PINGREQ from mqttjs_1c0a67c2
+1681464114: Sending PINGRESP to mqttjs_1c0a67c2
+1681464161: New connection from 192.168.144.1:50700 on port 1883.
+1681464161: New client connected from 192.168.144.1:50700 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464161: No will message specified.
+1681464161: Sending CONNACK to ESP32_1 (0, 0)
+1681464161: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464161: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464174: Received PINGREQ from mqttjs_1c0a67c2
+1681464174: Sending PINGRESP to mqttjs_1c0a67c2
+1681464189: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464234: Received PINGREQ from mqttjs_1c0a67c2
+1681464234: Sending PINGRESP to mqttjs_1c0a67c2
+1681464254: New connection from 192.168.144.1:50758 on port 1883.
+1681464254: New client connected from 192.168.144.1:50758 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464254: No will message specified.
+1681464254: Sending CONNACK to ESP32_1 (0, 0)
+1681464254: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464254: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464279: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464294: Received PINGREQ from mqttjs_1c0a67c2
+1681464294: Sending PINGRESP to mqttjs_1c0a67c2
+1681464347: New connection from 192.168.144.1:43558 on port 1883.
+1681464347: New client connected from 192.168.144.1:43558 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464347: No will message specified.
+1681464347: Sending CONNACK to ESP32_1 (0, 0)
+1681464347: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464347: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464354: Received PINGREQ from mqttjs_1c0a67c2
+1681464354: Sending PINGRESP to mqttjs_1c0a67c2
+1681464374: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464414: Received PINGREQ from mqttjs_1c0a67c2
+1681464414: Sending PINGRESP to mqttjs_1c0a67c2
+1681464440: New connection from 192.168.144.1:47992 on port 1883.
+1681464440: New client connected from 192.168.144.1:47992 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464440: No will message specified.
+1681464440: Sending CONNACK to ESP32_1 (0, 0)
+1681464440: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464440: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464465: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464474: Received PINGREQ from mqttjs_1c0a67c2
+1681464474: Sending PINGRESP to mqttjs_1c0a67c2
+1681464533: New connection from 192.168.144.1:58936 on port 1883.
+1681464533: New client connected from 192.168.144.1:58936 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464533: No will message specified.
+1681464533: Sending CONNACK to ESP32_1 (0, 0)
+1681464533: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464533: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464534: Received PINGREQ from mqttjs_1c0a67c2
+1681464534: Sending PINGRESP to mqttjs_1c0a67c2
+1681464561: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464594: Received PINGREQ from mqttjs_1c0a67c2
+1681464594: Sending PINGRESP to mqttjs_1c0a67c2
+1681464627: New connection from 192.168.144.1:58246 on port 1883.
+1681464627: New client connected from 192.168.144.1:58246 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464627: No will message specified.
+1681464627: Sending CONNACK to ESP32_1 (0, 0)
+1681464627: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464627: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464651: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464654: Received PINGREQ from mqttjs_1c0a67c2
+1681464654: Sending PINGRESP to mqttjs_1c0a67c2
+1681464714: Received PINGREQ from mqttjs_1c0a67c2
+1681464714: Sending PINGRESP to mqttjs_1c0a67c2
+1681464720: New connection from 192.168.144.1:40026 on port 1883.
+1681464720: New client connected from 192.168.144.1:40026 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464720: No will message specified.
+1681464720: Sending CONNACK to ESP32_1 (0, 0)
+1681464720: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464720: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464747: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464774: Received PINGREQ from mqttjs_1c0a67c2
+1681464774: Sending PINGRESP to mqttjs_1c0a67c2
+1681464813: New connection from 192.168.144.1:57964 on port 1883.
+1681464813: New client connected from 192.168.144.1:57964 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464813: No will message specified.
+1681464813: Sending CONNACK to ESP32_1 (0, 0)
+1681464813: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464813: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464834: Received PINGREQ from mqttjs_1c0a67c2
+1681464834: Sending PINGRESP to mqttjs_1c0a67c2
+1681464837: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464894: Received PINGREQ from mqttjs_1c0a67c2
+1681464894: Sending PINGRESP to mqttjs_1c0a67c2
+1681464906: New connection from 192.168.144.1:34892 on port 1883.
+1681464906: New client connected from 192.168.144.1:34892 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464906: No will message specified.
+1681464906: Sending CONNACK to ESP32_1 (0, 0)
+1681464906: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464906: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464932: Client ESP32_1 has exceeded timeout, disconnecting.
+1681464954: Received PINGREQ from mqttjs_1c0a67c2
+1681464954: Sending PINGRESP to mqttjs_1c0a67c2
+1681464999: New connection from 192.168.144.1:37254 on port 1883.
+1681464999: New client connected from 192.168.144.1:37254 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681464999: No will message specified.
+1681464999: Sending CONNACK to ESP32_1 (0, 0)
+1681464999: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681464999: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465014: Received PINGREQ from mqttjs_1c0a67c2
+1681465014: Sending PINGRESP to mqttjs_1c0a67c2
+1681465022: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465074: Received PINGREQ from mqttjs_1c0a67c2
+1681465074: Sending PINGRESP to mqttjs_1c0a67c2
+1681465092: New connection from 192.168.144.1:39070 on port 1883.
+1681465092: New client connected from 192.168.144.1:39070 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681465092: No will message specified.
+1681465092: Sending CONNACK to ESP32_1 (0, 0)
+1681465092: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465092: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465119: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465134: Received PINGREQ from mqttjs_1c0a67c2
+1681465134: Sending PINGRESP to mqttjs_1c0a67c2
+1681465185: New connection from 192.168.144.1:40020 on port 1883.
+1681465185: New client connected from 192.168.144.1:40020 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681465185: No will message specified.
+1681465185: Sending CONNACK to ESP32_1 (0, 0)
+1681465185: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465185: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465194: Received PINGREQ from mqttjs_1c0a67c2
+1681465194: Sending PINGRESP to mqttjs_1c0a67c2
+1681465209: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465254: Received PINGREQ from mqttjs_1c0a67c2
+1681465254: Sending PINGRESP to mqttjs_1c0a67c2
+1681465279: New connection from 192.168.144.1:56758 on port 1883.
+1681465279: New client connected from 192.168.144.1:56758 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681465279: No will message specified.
+1681465279: Sending CONNACK to ESP32_1 (0, 0)
+1681465279: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465279: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465305: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465314: Received PINGREQ from mqttjs_1c0a67c2
+1681465314: Sending PINGRESP to mqttjs_1c0a67c2
+1681465372: New connection from 192.168.144.1:41772 on port 1883.
+1681465372: New client connected from 192.168.144.1:41772 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681465372: No will message specified.
+1681465372: Sending CONNACK to ESP32_1 (0, 0)
+1681465372: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465372: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465374: Received PINGREQ from mqttjs_1c0a67c2
+1681465374: Sending PINGRESP to mqttjs_1c0a67c2
+1681465395: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465435: Received PINGREQ from mqttjs_1c0a67c2
+1681465435: Sending PINGRESP to mqttjs_1c0a67c2
+1681465465: New connection from 192.168.144.1:32822 on port 1883.
+1681465465: New client connected from 192.168.144.1:32822 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681465465: No will message specified.
+1681465465: Sending CONNACK to ESP32_1 (0, 0)
+1681465465: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465465: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465491: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465495: Received PINGREQ from mqttjs_1c0a67c2
+1681465495: Sending PINGRESP to mqttjs_1c0a67c2
+1681465555: Received PINGREQ from mqttjs_1c0a67c2
+1681465555: Sending PINGRESP to mqttjs_1c0a67c2
+1681465558: New connection from 192.168.144.1:43252 on port 1883.
+1681465558: New client connected from 192.168.144.1:43252 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681465558: No will message specified.
+1681465558: Sending CONNACK to ESP32_1 (0, 0)
+1681465558: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465558: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465581: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465615: Received PINGREQ from mqttjs_1c0a67c2
+1681465615: Sending PINGRESP to mqttjs_1c0a67c2
+1681465651: New connection from 192.168.144.1:48928 on port 1883.
+1681465651: New client connected from 192.168.144.1:48928 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681465651: No will message specified.
+1681465651: Sending CONNACK to ESP32_1 (0, 0)
+1681465651: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465651: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465675: Received PINGREQ from mqttjs_1c0a67c2
+1681465675: Sending PINGRESP to mqttjs_1c0a67c2
+1681465677: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465735: Received PINGREQ from mqttjs_1c0a67c2
+1681465735: Sending PINGRESP to mqttjs_1c0a67c2
+1681465744: New connection from 192.168.144.1:51666 on port 1883.
+1681465744: New client connected from 192.168.144.1:51666 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681465744: No will message specified.
+1681465744: Sending CONNACK to ESP32_1 (0, 0)
+1681465744: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465744: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465767: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465795: Received PINGREQ from mqttjs_1c0a67c2
+1681465795: Sending PINGRESP to mqttjs_1c0a67c2
+1681465837: New connection from 192.168.144.1:50640 on port 1883.
+1681465837: New client connected from 192.168.144.1:50640 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681465837: No will message specified.
+1681465837: Sending CONNACK to ESP32_1 (0, 0)
+1681465837: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465837: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465849: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1681465855: Received PINGREQ from mqttjs_1c0a67c2
+1681465855: Sending PINGRESP to mqttjs_1c0a67c2
+1681465863: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465915: Received PINGREQ from mqttjs_1c0a67c2
+1681465915: Sending PINGRESP to mqttjs_1c0a67c2
+1681465931: New connection from 192.168.144.1:53782 on port 1883.
+1681465931: New client connected from 192.168.144.1:53782 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681465931: No will message specified.
+1681465931: Sending CONNACK to ESP32_1 (0, 0)
+1681465931: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465931: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681465959: Client ESP32_1 has exceeded timeout, disconnecting.
+1681465975: Received PINGREQ from mqttjs_1c0a67c2
+1681465975: Sending PINGRESP to mqttjs_1c0a67c2
+1681466024: New connection from 192.168.144.1:37868 on port 1883.
+1681466024: New client connected from 192.168.144.1:37868 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681466024: No will message specified.
+1681466024: Sending CONNACK to ESP32_1 (0, 0)
+1681466024: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681466024: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681466035: Received PINGREQ from mqttjs_1c0a67c2
+1681466035: Sending PINGRESP to mqttjs_1c0a67c2
+1681466049: Client ESP32_1 has exceeded timeout, disconnecting.
+1681466095: Received PINGREQ from mqttjs_1c0a67c2
+1681466095: Sending PINGRESP to mqttjs_1c0a67c2
+1681466117: New connection from 192.168.144.1:41310 on port 1883.
+1681466117: New client connected from 192.168.144.1:41310 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681466117: No will message specified.
+1681466117: Sending CONNACK to ESP32_1 (0, 0)
+1681466117: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681466117: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681466145: Client ESP32_1 has exceeded timeout, disconnecting.
+1681466155: Received PINGREQ from mqttjs_1c0a67c2
+1681466155: Sending PINGRESP to mqttjs_1c0a67c2
+1681466210: New connection from 192.168.144.1:40874 on port 1883.
+1681466210: New client connected from 192.168.144.1:40874 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681466210: No will message specified.
+1681466210: Sending CONNACK to ESP32_1 (0, 0)
+1681466210: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681466210: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681466215: Received PINGREQ from mqttjs_1c0a67c2
+1681466215: Sending PINGRESP to mqttjs_1c0a67c2
+1681466235: Client ESP32_1 has exceeded timeout, disconnecting.
+1681466275: Received PINGREQ from mqttjs_1c0a67c2
+1681466275: Sending PINGRESP to mqttjs_1c0a67c2
+1681466303: New connection from 192.168.144.1:55740 on port 1883.
+1681466303: New client connected from 192.168.144.1:55740 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681466303: No will message specified.
+1681466303: Sending CONNACK to ESP32_1 (0, 0)
+1681466303: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681466303: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681466331: Client ESP32_1 has exceeded timeout, disconnecting.
+1681466335: Received PINGREQ from mqttjs_1c0a67c2
+1681466335: Sending PINGRESP to mqttjs_1c0a67c2
+1681466395: Received PINGREQ from mqttjs_1c0a67c2
+1681466395: Sending PINGRESP to mqttjs_1c0a67c2
+1681466396: New connection from 192.168.144.1:47006 on port 1883.
+1681466396: New client connected from 192.168.144.1:47006 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681466396: No will message specified.
+1681466396: Sending CONNACK to ESP32_1 (0, 0)
+1681466396: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681466396: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (64 bytes))
+1681466421: Client ESP32_1 has exceeded timeout, disconnecting.
+1681466458: Received PINGREQ from mqttjs_1c0a67c2
+1681466458: Sending PINGRESP to mqttjs_1c0a67c2
+1681480883: New connection from 192.168.144.1:49346 on port 1883.
+1681480883: New client connected from 192.168.144.1:49346 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681480883: No will message specified.
+1681480883: Sending CONNACK to ESP32_1 (0, 0)
+1681480908: Client ESP32_1 has exceeded timeout, disconnecting.
+1681480913: New connection from 192.168.144.1:47440 on port 1883.
+1681480913: New client connected from 192.168.144.1:47440 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681480913: No will message specified.
+1681480913: Sending CONNACK to ESP32_1 (0, 0)
+1681480913: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (61 bytes))
+1681480913: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (61 bytes))
+1681480932: Received PINGREQ from mqttjs_1c0a67c2
+1681480932: Sending PINGRESP to mqttjs_1c0a67c2
+1681480938: Client ESP32_1 has exceeded timeout, disconnecting.
+1681480992: Received PINGREQ from mqttjs_1c0a67c2
+1681480992: Sending PINGRESP to mqttjs_1c0a67c2
+1681481006: New connection from 192.168.144.1:33030 on port 1883.
+1681481006: New client connected from 192.168.144.1:33030 as ESP32_1 (p2, c1, k15, u'ESP32_1').
+1681481006: No will message specified.
+1681481006: Sending CONNACK to ESP32_1 (0, 0)
+1681481006: Received PUBLISH from ESP32_1 (d0, q0, r0, m0, 'msg/249396', ... (61 bytes))
+1681481006: Sending PUBLISH to mqttjs_1c0a67c2 (d0, q0, r0, m0, 'msg/249396', ... (61 bytes))
+1681481034: Client ESP32_1 has exceeded timeout, disconnecting.
+1681481052: Received PINGREQ from mqttjs_1c0a67c2
+1681481052: Sending PINGRESP to mqttjs_1c0a67c2
+1681481085: Client mqttjs_1c0a67c2 closed its connection.
+1681481086: mosquitto version 2.0.15 terminating
+1681481086: Saving in-memory database to /mosquitto/data//mosquitto.db.
