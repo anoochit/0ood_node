@@ -2,6 +2,10 @@
 #include <Preferences.h>
 Preferences prefs;
 
+// rtc control
+#include "soc/soc.h"
+#include "soc/rtc_cntl_reg.h"
+
 // include wifi
 #include "WiFi.h"
 String ssid;
@@ -37,6 +41,8 @@ uint32_t chipId = 0;
 
 void setup()
 {
+  // Disable brownout detector
+  WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);
   Serial.begin(9600);
 
   // Show Chip id
@@ -57,8 +63,8 @@ void setup()
   prefs.begin("esp32", false);
 
   // Get ssid and password
-  ssid = prefs.getString("ssid", "");
-  pss = prefs.getString("pss", "");
+  ssid = prefs.getString("ssid", " ");
+  pss = prefs.getString("pss", " ");
   Serial.print("SSID = ");
   Serial.println(ssid);
   Serial.print("pss = ");
@@ -133,8 +139,7 @@ void initSensor()
 
   // Initialize PMS device.
   SerialPMS.begin(9600, SERIAL_8N1, RXD2, TXD2);
-  // pms.passiveMode();
-  pms.activeMode();
+  pms.passiveMode();
 
   // init mqtt
   mqtt.setServer(MQTT_SERVER, MQTT_PORT);

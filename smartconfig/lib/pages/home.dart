@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Wifi Smart Config'),
+          title: const Text('Device Config'),
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         ),
         body: SafeArea(
@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
 
-                  // button
+                  // start button
                   Visibility(
                     visible: !startProvisioning,
                     child: Padding(
@@ -164,6 +164,7 @@ class _HomePageState extends State<HomePage> {
                                   password: txtWifiPasswordController.text,
                                 ));
 
+                                // show circle progress indicator dialog
                                 showDialog(
                                   context: context,
                                   builder: (context) {
@@ -184,6 +185,7 @@ class _HomePageState extends State<HomePage> {
                                 );
                               } catch (e, _) {
                                 log('e');
+                                // TODO : should add error dialog here
                               }
                             }
                           },
@@ -193,6 +195,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
 
+                  // stop button
                   Visibility(
                     visible: startProvisioning,
                     child: Padding(
@@ -218,6 +221,7 @@ class _HomePageState extends State<HomePage> {
         ));
   }
 
+  // ask location permission
   _permissionHandler() async {
     await Permission.location.status.then((value) async {
       if (!value.isGranted) {
@@ -228,6 +232,7 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  // ask wifi info
   Future<void> _initNetworkInfo() async {
     try {
       if (!kIsWeb && Platform.isIOS) {
